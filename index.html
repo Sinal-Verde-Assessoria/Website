@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinal Verde - Redirecting...</title>
+    <meta name="description" content="Sinal Verde - Soluções Paralegais Empresariais">
+    
+    <!-- Hreflang tags for SEO -->
+    <link rel="alternate" hreflang="pt" href="https://sinalverdeassessoria.com.br/pt/">
+    <link rel="alternate" hreflang="en" href="https://sinalverdeassessoria.com.br/en/">
+    <link rel="alternate" hreflang="es" href="https://sinalverdeassessoria.com.br/es/">
+    <link rel="alternate" hreflang="x-default" href="https://sinalverdeassessoria.com.br/">
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #16a34a, #15803d);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        
+        .loader-container {
+            text-align: center;
+        }
+        
+        .loader {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        
+        p {
+            margin: 10px 0 0;
+            opacity: 0.9;
+        }
+        
+        .language-info {
+            margin-top: 20px;
+            font-size: 12px;
+            opacity: 0.7;
+        }
+    </style>
+    
+    <script>
+        // Função otimizada para detectar idioma
+        function detectLanguage() {
+            // 1. Verifica se há preferência salva
+            const savedLang = localStorage.getItem('preferredLanguage');
+            if (savedLang && ['pt', 'en', 'es'].includes(savedLang)) {
+                return savedLang;
+            }
+            
+            // 2. Verifica parâmetro na URL (útil para links diretos)
+            const urlParams = new URLSearchParams(window.location.search);
+            const urlLang = urlParams.get('lang');
+            if (urlLang && ['pt', 'en', 'es'].includes(urlLang)) {
+                localStorage.setItem('preferredLanguage', urlLang);
+                return urlLang;
+            }
+            
+            // 3. Detecta idioma do navegador
+            const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+            
+            // Mapeamento detalhado de idiomas
+            const langMap = {
+                'pt': ['pt', 'pt-br', 'pt-pt'],
+                'es': ['es', 'es-es', 'es-mx', 'es-ar', 'es-co', 'es-cl'],
+                'en': ['en', 'en-us', 'en-gb', 'en-ca', 'en-au']
+            };
+            
+            for (const [lang, patterns] of Object.entries(langMap)) {
+                if (patterns.some(pattern => browserLang.startsWith(pattern))) {
+                    return lang;
+                }
+            }
+            
+            // 4. Default para português (mercado principal)
+            return 'pt';
+        }
+        
+        // Executa o redirecionamento
+        (function() {
+            const userLang = detectLanguage();
+            
+            // Salva preferência
+            localStorage.setItem('preferredLanguage', userLang);
+            
+            // Define mensagem baseada no idioma
+            const messages = {
+                pt: 'Redirecionando...',
+                en: 'Redirecting...',
+                es: 'Redirigiendo...'
+            };
+            
+            // Atualiza texto se elemento existir
+            const messageElement = document.querySelector('.redirect-message');
+            if (messageElement) {
+                messageElement.textContent = messages[userLang] || messages.pt;
+            }
+            
+            // Determina o caminho correto
+            let targetPath = `/${userLang}/`;
+            
+            // Redireciona após breve delay (para mostrar loader)
+            setTimeout(() => {
+                window.location.href = targetPath;
+            }, 500);
+            
+            // Fallback caso o redirecionamento falhe
+            setTimeout(() => {
+                if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+                    // Se ainda estivermos aqui, tenta redirecionamento manual
+                    window.location.replace(targetPath);
+                }
+            }, 2000);
+        })();
+    </script>
+</head>
+<body>
+    <div class="loader-container">
+        <div class="loader"></div>
+        <h1>SINAL VERDE</h1>
+        <p class="redirect-message">Redirecionando...</p>
+        <p class="language-info" id="lang-info"></p>
+    </div>
+    
+    <script>
+        // Mostra informação de debug em desenvolvimento
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            const lang = detectLanguage();
+            document.getElementById('lang-info').textContent = `Detected language: ${lang.toUpperCase()}`;
+        }
+    </script>
+</body>
+</html>
