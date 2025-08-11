@@ -1,0 +1,433 @@
+/* =========================
+   PRIVACY POLICY STYLES
+   ========================= */
+
+.privacy-main {
+    padding-top: 2rem;
+    min-height: 80vh;
+}
+
+.privacy-header {
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    padding: 4rem 0;
+    margin-bottom: 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.privacy-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M0 0h100v100H0z'/%3E%3Cpath d='M0 0l50 50-50 50z'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 200px 200px;
+}
+
+.privacy-header h1 {
+    color: var(--white);
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.privacy-header .subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.125rem;
+    position: relative;
+}
+
+.privacy-content {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* Table of Contents */
+.toc {
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+.toc h3 {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+.toc nav ul {
+    list-style: none;
+}
+
+.toc nav ul li {
+    margin-bottom: 0.75rem;
+}
+
+.toc nav ul li a {
+    color: var(--text-secondary);
+    font-size: 0.9375rem;
+    padding: 0.5rem 0;
+    display: block;
+    border-left: 3px solid transparent;
+    padding-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+.toc nav ul li a:hover {
+    color: var(--primary);
+    background: var(--secondary);
+    border-left-color: var(--primary);
+}
+
+.toc nav ul li a.active {
+    color: var(--primary);
+    font-weight: 600;
+    border-left-color: var(--primary);
+    background: linear-gradient(90deg, rgba(22, 163, 74, 0.1) 0%, transparent 100%);
+}
+
+/* Main Article */
+.privacy-article {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-md);
+}
+
+.privacy-article section {
+    margin-bottom: 3rem;
+    scroll-margin-top: 100px;
+}
+
+.privacy-article h2 {
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--border);
+}
+
+.privacy-article h3 {
+    color: var(--text-primary);
+    margin: 1.5rem 0 1rem;
+    font-size: 1.25rem;
+}
+
+.privacy-article p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.privacy-article ul {
+    margin: 1rem 0 1.5rem 1.5rem;
+}
+
+.privacy-article ul li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+}
+
+.privacy-article ul li strong {
+    color: var(--text-primary);
+}
+
+/* Purpose Grid */
+.purpose-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.purpose-card {
+    background: var(--secondary);
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.purpose-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.purpose-card i {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.purpose-card h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.purpose-card p {
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+/* Cookie Types */
+.cookie-types {
+    display: grid;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.cookie-type {
+    background: linear-gradient(135deg, rgba(22, 163, 74, 0.05) 0%, rgba(22, 163, 74, 0.02) 100%);
+    padding: 1.25rem;
+    border-radius: var(--radius);
+    border-left: 4px solid var(--primary);
+}
+
+.cookie-type h4 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.cookie-type h4 i {
+    color: var(--primary);
+}
+
+.cookie-type p {
+    margin: 0;
+    padding-left: 2rem;
+}
+
+/* Security Measures */
+.security-measures {
+    display: grid;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.measure {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: var(--secondary);
+    border-radius: var(--radius);
+    transition: all 0.3s ease;
+}
+
+.measure:hover {
+    background: var(--white);
+    box-shadow: var(--shadow-lg);
+    transform: translateX(10px);
+}
+
+.measure i {
+    font-size: 1.5rem;
+    color: var(--primary);
+    flex-shrink: 0;
+}
+
+.measure h4 {
+    font-size: 1.125rem;
+    margin-bottom: 0.25rem;
+    color: var(--text-primary);
+}
+
+.measure p {
+    margin: 0;
+    font-size: 0.9375rem;
+}
+
+/* Rights List */
+.rights-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.right-item {
+    padding: 1.5rem;
+    background: var(--white);
+    border: 2px solid var(--border);
+    border-radius: var(--radius);
+    transition: all 0.3s ease;
+}
+
+.right-item:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+}
+
+.right-item h4 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+}
+
+.right-item h4 i {
+    color: var(--primary);
+}
+
+.right-item p {
+    margin: 0;
+    font-size: 0.9375rem;
+}
+
+/* Contact Info Privacy */
+.contact-info-privacy {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.contact-card {
+    text-align: center;
+    padding: 2rem;
+    background: var(--secondary);
+    border-radius: var(--radius);
+    transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.contact-card i {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.contact-card h4 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.contact-card p {
+    margin: 0;
+    font-size: 0.9375rem;
+}
+
+.contact-card a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.contact-card a:hover {
+    color: var(--primary-dark);
+}
+
+/* DPO Notice */
+.dpo-notice {
+    background: linear-gradient(135deg, rgba(22, 163, 74, 0.1) 0%, rgba(22, 163, 74, 0.05) 100%);
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    border-left: 4px solid var(--primary);
+    margin-top: 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.dpo-notice i {
+    font-size: 1.5rem;
+    color: var(--primary);
+    flex-shrink: 0;
+}
+
+.dpo-notice p {
+    margin: 0;
+    line-height: 1.7;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .privacy-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .toc {
+        position: static;
+        background: var(--secondary);
+        padding: 1.5rem;
+        border-radius: var(--radius);
+        margin-bottom: 2rem;
+    }
+    
+    .toc h3 {
+        margin-bottom: 1rem;
+    }
+    
+    .toc nav ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+    
+    .toc nav ul li {
+        margin-bottom: 0;
+    }
+    
+    .toc nav ul li a {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .privacy-header {
+        padding: 3rem 0;
+    }
+    
+    .privacy-header h1 {
+        font-size: 2rem;
+    }
+    
+    .privacy-article {
+        padding: 1.5rem;
+    }
+    
+    .purpose-grid,
+    .rights-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-info-privacy {
+        grid-template-columns: 1fr;
+    }
+    
+    .toc nav ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .privacy-header {
+        padding: 2rem 0;
+    }
+    
+    .privacy-article {
+        padding: 1rem;
+    }
+    
+    .privacy-article h2 {
+        font-size: 1.5rem;
+    }
+    
+    .privacy-article h3 {
+        font-size: 1.125rem;
+    }
+}
