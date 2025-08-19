@@ -85,22 +85,6 @@ class Utils {
     }
   }
   
-  static async copyDir(src, dest) {
-    await Utils.ensureDir(dest);
-    const entries = await fs.readdir(src, { withFileTypes: true });
-    
-    for (const entry of entries) {
-      const srcPath = path.join(src, entry.name);
-      const destPath = path.join(dest, entry.name);
-      
-      if (entry.isDirectory()) {
-        await Utils.copyDir(srcPath, destPath);
-      } else {
-        await fs.copyFile(srcPath, destPath);
-      }
-    }
-  }
-  
   static minifyHTML(html) {
     if (!CONFIG.minify) return html;
     
@@ -334,35 +318,6 @@ class TemplatePreprocessor {
 
 // Adicione esta função no seu build-script.js, após copiar os assets:
 
-async function copyRootIndex() {
-    const rootIndexPath = path.join(__dirname, 'index.html');
-    const distIndexPath = path.join(distDir, 'index.html');
-    
-    try {
-        // Verifica se o index.html existe na raiz
-        if (fs.existsSync(rootIndexPath)) {
-            await fs.copy(rootIndexPath, distIndexPath);
-            console.log('✅ Root index.html (language redirector) copied to dist/');
-        } else {
-            console.log('⚠️ No root index.html found - creating a basic redirector');
-            // Cria um redirecionador básico se não existir
-            const basicRedirector = `<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=/pt/">
-    <title>Redirecting...</title>
-</head>
-<body>
-    <script>window.location.href = '/pt/';</script>
-</body>
-</html>`;
-            await fs.writeFile(distIndexPath, basicRedirector);
-        }
-    } catch (error) {
-        console.error('❌ Error copying root index.html:', error);
-    }
-}
 
 // E no main() function, adicione esta linha após copyAssets():
 async function main() {
@@ -370,7 +325,6 @@ async function main() {
     
     await cleanDist();
     await copyAssets();
-    await copyRootIndex();  // ← ADICIONE ESTA LINHA
     await buildPages();
     
     console.log('\n✨ Build completed successfully!');
@@ -673,6 +627,10 @@ class PageBuilder {
   
   async buildAllPages() {
     console.log('🏗️  Construindo páginas...');
+
+    await Utils.ensureDir(path.join(CONFIG.paths.dist, 'pt'));
+    await Utils.ensureDir(path.join(CONFIG.paths.dist, 'en'));
+    await Utils.ensureDir(path.join(CONFIG.paths.dist, 'es'));
     
     for (const lang of CONFIG.languages) {
       console.log(`  📄 Gerando páginas em ${lang.toUpperCase()}...`);
@@ -1261,10 +1219,6 @@ class BuildSystem {
       
       // Build all pages
       await this.pageBuilder.buildAllPages();
-      
-      // Copy assets
-      console.log('📦 Copiando assets...');
-      await Utils.copyDir(CONFIG.paths.assets, path.join(CONFIG.paths.dist, 'assets'));
       
       // Generate sitemap and robots.txt
       await this.sitemapGenerator.generate();
