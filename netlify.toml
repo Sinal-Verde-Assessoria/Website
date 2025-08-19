@@ -3,6 +3,7 @@
   publish = "dist"
   environment = { NODE_VERSION = "20" }
 
+# Adicione esta seção ao seu netlify.toml
 [[redirects]]
   from = "/"
   to = "/pt/"
@@ -27,51 +28,4 @@
   status = 302
   force = false
 
-[[redirects]]
-  from = "/index.html"
-  to = "/pt/"
-  status = 301
-
-[[redirects]]
-  from = "/home"
-  to = "/pt/"
-  status = 301
-
-[[redirects]]
-  from = "/inicio"
-  to = "/pt/"
-  status = 301
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-Content-Type-Options = "nosniff"
-    X-XSS-Protection = "1; mode=block"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
-
-[[headers]]
-  for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.css"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.js"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/assets/images/*"
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
-
-[[headers]]
-  for = "/*.html"
-  [headers.values]
-    Cache-Control = "public, max-age=3600, must-revalidate"
+# Outras regras de redirecionamento (se houver)
