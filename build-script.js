@@ -336,34 +336,31 @@ class TemplatePreprocessor {
 
 async function copyRootIndex() {
     const rootIndexPath = path.join(__dirname, 'index.html');
-    const distIndexPath = path.join(CONFIG.paths.dist, 'index.html');
+    const distIndexPath = path.join(distDir, 'index.html');
     
     try {
         // Verifica se o index.html existe na raiz
-        const exists = await fs.access(rootIndexPath).then(() => true).catch(() => false);
-        
-        if (exists) {
-            await fs.copyFile(rootIndexPath, distIndexPath);
-            console.log('✅ Root index.html (language redirector) copied');
+        if (fs.existsSync(rootIndexPath)) {
+            await fs.copy(rootIndexPath, distIndexPath);
+            console.log('✅ Root index.html (language redirector) copied to dist/');
         } else {
-            console.log('⚠️ No root index.html found - creating fallback');
-            // Cria um redirecionador básico
-            const fallbackHTML = `<!DOCTYPE html>
+            console.log('⚠️ No root index.html found - creating a basic redirector');
+            // Cria um redirecionador básico se não existir
+            const basicRedirector = `<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="refresh" content="0; url=/pt/">
     <title>Redirecting...</title>
-    <script>window.location.href = '/pt/';</script>
 </head>
 <body>
-    <a href="/pt/">Click here if not redirected</a>
+    <script>window.location.href = '/pt/';</script>
 </body>
 </html>`;
-            await fs.writeFile(distIndexPath, fallbackHTML);
+            await fs.writeFile(distIndexPath, basicRedirector);
         }
     } catch (error) {
-        console.error('Error handling root index:', error.message);
+        console.error('❌ Error copying root index.html:', error);
     }
 }
 
