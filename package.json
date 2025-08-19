@@ -1,0 +1,53 @@
+{
+  "name": "sinal-verde-website",
+  "version": "3.0.0",
+  "description": "Site institucional da Sinal Verde Assessoria - Soluções Paralegais Empresariais",
+  "main": "build-script.js",
+  "scripts": {
+    "dev": "node build-script.js && npm run serve",
+    "build": "node build-script.js",
+    "build:production": "cross-env NODE_ENV=production node build-script.js",
+    "build:debug": "cross-env DEBUG=true node build-script.js",
+    "serve": "npx http-server dist -p 8080 -c-1 --proxy http://localhost:8080?",
+    "serve:production": "npx http-server dist -p 8080 -c3600",
+    "clean": "rimraf dist",
+    "test": "echo \"No tests configured yet\"",
+    "preview": "npm run build:production && npm run serve:production",
+    "deploy:check": "npm run build:production && dir dist",
+    "build:windows": "set NODE_ENV=production&& node build-script.js",
+    "build:windows:debug": "set DEBUG=true&& node build-script.js"
+  },
+  "keywords": [
+    "paralegal",
+    "assessoria",
+    "juridico",
+    "administrativo",
+    "brasil",
+    "sinal-verde"
+  ],
+  "author": {
+    "name": "Sinal Verde Assessoria",
+    "email": "contato@sinalverdeassessoria.com.br",
+    "url": "https://sinalverdeassessoria.com.br"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "mustache": "^4.2.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "cross-env": "^7.0.3",
+    "rimraf": "^5.0.5"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seu-usuario/sinal-verde-website.git"
+  },
+  "homepage": "https://sinalverdeassessoria.com.br"
+}
