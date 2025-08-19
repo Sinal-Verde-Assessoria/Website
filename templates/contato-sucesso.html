@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="{{CURRENT_LANG}}">
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TB8TSVFD');</script>
+<!-- End Google Tag Manager -->
+ <!-- Adicione este bloco no <head> de TODOS os templates HTML -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "@id": "{{otherData.globalMeta.baseUrl}}/#organization",
+  "name": "{{otherData.company.name}}",
+  "alternateName": "Sinal Verde",
+  "url": "{{otherData.globalMeta.baseUrl}}",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{otherData.globalMeta.baseUrl}}/assets/images/logo.png",
+    "width": 200,
+    "height": 200
+  },
+  "image": "{{otherData.globalMeta.baseUrl}}/assets/images/logo.png",
+  "description": "{{ui.footer.description}}",
+  "telephone": "{{otherData.company.phoneCall}}",
+  "email": "{{otherData.company.email}}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Conselheiro Saraiva, 207 - Cj 53",
+    "addressLocality": "São Paulo",
+    "addressRegion": "SP",
+    "postalCode": "02037-020",
+    "addressCountry": "BR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-23.5144",
+    "longitude": "-46.6199"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "12:00"
+    }
+  ],
+  "sameAs": [
+    "{{otherData.socialMedia.linkedin}}",
+    "{{otherData.socialMedia.instagram}}",
+    "{{otherData.socialMedia.facebook}}"
+  ],
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "Dr. {{otherData.company.founders.0.name}}",
+      "jobTitle": "{{otherData.company.founders.0.role}}"
+    },
+    {
+      "@type": "Person",
+      "name": "Dr. {{otherData.company.founders.1.name}}",
+      "jobTitle": "{{otherData.company.founders.1.role}}"
+    }
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "Brasil"
+  },
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "127"
+  }
+}</script>
+<!-- Adicione estes blocos ADICIONAIS no <head> do contato-sucesso.html -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ui.successPage.title}}",
+  "description": "{{ui.successPage.message}}",
+  "url": "{{otherData.globalMeta.baseUrl}}/{{CURRENT_LANG}}/contato-sucesso",
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "{{otherData.globalMeta.baseUrl}}"
+  },
+  "potentialAction": {
+    "@type": "Action",
+    "name": "Retornar ao início",
+    "target": "{{otherData.globalMeta.baseUrl}}/{{CURRENT_LANG}}"
+  }
+}</script>
+
+<!-- BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{{ui.nav.home}}",
+      "item": "{{otherData.globalMeta.baseUrl}}/{{CURRENT_LANG}}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ui.nav.contact}}",
+      "item": "{{otherData.globalMeta.baseUrl}}/{{CURRENT_LANG}}/contato"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ui.successPage.title}}",
+      "item": "{{otherData.globalMeta.baseUrl}}/{{CURRENT_LANG}}/contato-sucesso"
+    }
+  ]
+}</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ui.success.title}} | Sinal Verde</title>
+    <meta name="robots" content="noindex, nofollow">
+    
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.ico">
+    
+    <link rel="stylesheet" href="/assets/css/global.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        .success-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            padding: 2rem;
+        }
+        
+        .success-card {
+            background: white;
+            padding: 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+            animation: slideInUp 0.5s ease;
+        }
+        
+        .success-icon {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 2rem;
+            background: linear-gradient(135deg, #16a34a, #15803d);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: scaleIn 0.5s ease 0.2s both;
+        }
+        
+        .success-icon i {
+            font-size: 3rem;
+            color: white;
+        }
+        
+        .success-card h1 {
+            color: #111827;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        
+        .success-card p {
+            color: #6b7280;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .success-info {
+            background: #f3f4f6;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            margin: 2rem 0;
+            text-align: left;
+        }
+        
+        .success-info h3 {
+            color: #111827;
+            margin-bottom: 0.75rem;
+            font-size: 1.125rem;
+        }
+        
+        .success-info ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .success-info li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+            color: #6b7280;
+        }
+        
+        .success-info li i {
+            color: #16a34a;
+        }
+        
+        .success-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes scaleIn {
+            from {
+                transform: scale(0);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+        
+        .countdown {
+            font-weight: 600;
+            color: #16a34a;
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TB8TSVFD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="success-container">
+        <div class="success-card">
+            <div class="success-icon">
+                <i class="fas fa-check"></i>
+            </div>
+            
+            <h1 data-i18n="success.title">{{ui.success.title}}</h1>
+            <p data-i18n="success.subtitle">{{ui.success.subtitle}}</p>
+            
+            <div class="success-info">
+                <h3 data-i18n="success.what.title">{{ui.success.what.title}}</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span data-i18n="success.what.step1">{{ui.success.what.step1}}</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span data-i18n="success.what.step2">{{ui.success.what.step2}}</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span data-i18n="success.what.step3">{{ui.success.what.step3}}</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span data-i18n="success.what.step4">{{ui.success.what.step4}}</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <p data-i18n="success.redirect">{{ui.success.redirect}} <span class="countdown">10</span> <span data-i18n="success.seconds">{{ui.success.seconds}}</span></p>
+            
+            <div class="success-actions">
+                <a href="/{{CURRENT_LANG}}/index.html" class="btn btn-primary">
+                    <i class="fas fa-home"></i> <span data-i18n="success.backHome">{{ui.success.backHome}}</span>
+                </a>
+                <a href="https://wa.me/{{otherData.company.phone}}" target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-whatsapp"></i> <span data-i18n="common.whatsappButton">{{ui.common.whatsappButton}}</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let seconds = 10;
+        const countdownElement = document.querySelector('.countdown');
+        
+        const countdown = setInterval(() => {
+            seconds--;
+            countdownElement.textContent = seconds;
+            
+            if (seconds <= 0) {
+                clearInterval(countdown);
+                window.location.href = "/{{CURRENT_LANG}}/index.html";
+            }
+        }, 1000);
+        
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('success') === 'true') {
+            console.log('Form submission successful');
+        }
+    </script>
+</body>
+</html>
