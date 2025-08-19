@@ -1,0 +1,144 @@
+{
+      "id": "digitalizacao-processos",
+      "featured": false,
+      "category": "tutorial",
+      "date": "2024-01-05",
+      "readTime": 10,
+      "views": 2103,
+      "author": "Eng. Roberto Lima",
+      "authorRole": "Especialista em Automação",
+      "image": "digitalizacao.jpg",
+      "tags": ["digitalização", "automação", "processos", "tecnologia"],
+      "pt": {
+        "title": "Digitalização de Processos: ROI em 90 dias",
+        "excerpt": "Case real: como reduzimos 70% do tempo gasto em processos burocráticos com automação inteligente.",
+        "content": {
+          "introduction": "Este case demonstra como uma empresa do setor imobiliário conseguiu reduzir drasticamente o tempo gasto com burocracia através de digitalização inteligente.",
+          "sections": [
+            {
+              "heading": "O Desafio",
+              "text": "A empresa processava manualmente mais de 500 documentos/mês, com equipe de 8 pessoas dedicadas exclusivamente a tarefas burocráticas."
+            },
+            {
+              "heading": "A Solução Implementada",
+              "text": "Implementamos um sistema de gestão documental com OCR, workflows automatizados e integração com órgãos públicos.",
+              "list": [
+                "Digitalização com reconhecimento automático",
+                "Workflows de aprovação digital",
+                "Integração com sistemas governamentais",
+                "Dashboard de acompanhamento em tempo real"
+              ]
+            },
+            {
+              "heading": "Resultados Alcançados",
+              "text": "Em apenas 90 dias, os resultados superaram as expectativas:",
+              "highlights": {
+                "reducaoTempo": "70% de redução no tempo de processamento",
+                "economia": "R$ 45.000/mês em economia operacional",
+                "produtividade": "300% de aumento na produtividade",
+                "erros": "95% de redução em erros e retrabalho"
+              }
+            }
+          ],
+          "conclusion": "A digitalização inteligente não é custo, é investimento com retorno garantido.",
+          "cta": {
+            "text": "Quer digitalizar seus processos?",
+            "button": "Solicitar Diagnóstico",
+            "link": "/contato"
+          }
+        },
+        "seo": {
+          "metaTitle": "Digitalização de Processos | Case de Sucesso ROI 90 dias - Sinal Verde",
+          "metaDescription": "Case real de digitalização: 70% de redução no tempo de processos burocráticos. ROI em 90 dias.",
+          "keywords": "digitalização processos, automação, ROI, case sucesso"
+        }
+      },
+      "en": {
+        "title": "Process Digitalization: ROI in 90 days",
+        "excerpt": "Real case: how we reduced 70% of time spent on bureaucratic processes with intelligent automation.",
+        "content": {
+          "introduction": "This case demonstrates how a real estate company drastically reduced time spent on bureaucracy through intelligent digitalization.",
+          "sections": [
+            {
+              "heading": "The Challenge",
+              "text": "The company manually processed over 500 documents/month, with 8 people dedicated exclusively to bureaucratic tasks."
+            },
+            {
+              "heading": "Implemented Solution",
+              "text": "We implemented a document management system with OCR, automated workflows and integration with public agencies.",
+              "list": [
+                "Digitalization with automatic recognition",
+                "Digital approval workflows",
+                "Government systems integration",
+                "Real-time tracking dashboard"
+              ]
+            },
+            {
+              "heading": "Achieved Results",
+              "text": "In just 90 days, results exceeded expectations:",
+              "highlights": {
+                "timeReduction": "70% reduction in processing time",
+                "savings": "R$ 45,000/month in operational savings",
+                "productivity": "300% productivity increase",
+                "errors": "95% reduction in errors and rework"
+              }
+            }
+          ],
+          "conclusion": "Intelligent digitalization is not a cost, it's an investment with guaranteed return.",
+          "cta": {
+            "text": "Want to digitalize your processes?",
+            "button": "Request Diagnosis",
+            "link": "/contact"
+          }
+        },
+        "seo": {
+          "metaTitle": "Process Digitalization | Success Case ROI 90 days - Sinal Verde",
+          "metaDescription": "Real digitalization case: 70% reduction in bureaucratic process time. ROI in 90 days.",
+          "keywords": "process digitalization, automation, ROI, success case"
+        }
+      },
+      "es": {
+        "title": "Digitalización de Procesos: ROI en 90 días",
+        "excerpt": "Caso real: cómo reducimos 70% del tiempo gastado en procesos burocráticos con automatización inteligente.",
+        "content": {
+          "introduction": "Este caso demuestra cómo una empresa inmobiliaria redujo drásticamente el tiempo gastado con burocracia a través de digitalización inteligente.",
+          "sections": [
+            {
+              "heading": "El Desafío",
+              "text": "La empresa procesaba manualmente más de 500 documentos/mes, con 8 personas dedicadas exclusivamente a tareas burocráticas."
+            },
+            {
+              "heading": "Solución Implementada",
+              "text": "Implementamos un sistema de gestión documental con OCR, flujos automatizados e integración con organismos públicos.",
+              "list": [
+                "Digitalización con reconocimiento automático",
+                "Flujos de aprobación digital",
+                "Integración con sistemas gubernamentales",
+                "Panel de seguimiento en tiempo real"
+              ]
+            },
+            {
+              "heading": "Resultados Alcanzados",
+              "text": "En solo 90 días, los resultados superaron las expectativas:",
+              "highlights": {
+                "reduccionTiempo": "70% de reducción en tiempo de procesamiento",
+                "ahorro": "R$ 45.000/mes en ahorro operacional",
+                "productividad": "300% de aumento en productividad",
+                "errores": "95% de reducción en errores y retrabajo"
+              }
+            }
+          ],
+          "conclusion": "La digitalización inteligente no es costo, es inversión con retorno garantizado.",
+          "cta": {
+            "text": "¿Quiere digitalizar sus procesos?",
+            "button": "Solicitar Diagnóstico",
+            "link": "/contacto"
+          }
+        },
+        "seo": {
+          "metaTitle": "Digitalización de Procesos | Caso de Éxito ROI 90 días - Sinal Verde",
+          "metaDescription": "Caso real de digitalización: 70% de reducción en tiempo de procesos burocráticos. ROI en 90 días.",
+          "keywords": "digitalización procesos, automatización, ROI, caso éxito"
+        }
+      }
+    }

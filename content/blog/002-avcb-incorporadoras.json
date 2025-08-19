@@ -1,0 +1,129 @@
+{
+  "id": "avcb-incorporadoras",
+  "featured": false,
+  "category": "licencas",
+  "date": "2024-01-12",
+  "readTime": 5,
+  "views": 1823,
+  "author": "Dra. Maria Santos",
+  "authorRole": "Especialista em Licenciamento",
+  "image": "avcb-guide.jpg",
+  "tags": ["avcb", "licenças", "incorporadoras", "bombeiros"],
+  "pt": {
+    "title": "Guia Completo: AVCB para Incorporadoras",
+    "excerpt": "Passo a passo atualizado para obtenção do Auto de Vistoria do Corpo de Bombeiros. Evite multas e embargos com nossa checklist especializada.",
+    "content": {
+      "introduction": "O Auto de Vistoria do Corpo de Bombeiros (AVCB) é documento fundamental para incorporadoras. Sem ele, seu empreendimento pode ser embargado, gerando prejuízos milionários.",
+      "sections": [
+        {
+          "heading": "O que é o AVCB?",
+          "text": "O AVCB certifica que a edificação possui as condições de segurança contra incêndio, previstas pela legislação. É obrigatório para obtenção do habite-se e funcionamento regular do empreendimento."
+        },
+        {
+          "heading": "Documentação Necessária",
+          "text": "A documentação varia conforme o tipo e porte do empreendimento, mas geralmente inclui:",
+          "list": [
+            "Projeto de segurança contra incêndio aprovado",
+            "ART/RRT do responsável técnico",
+            "Laudo de instalações elétricas",
+            "Certificados dos equipamentos de combate a incêndio",
+            "Comprovante de treinamento de brigada"
+          ]
+        },
+        {
+          "heading": "Prazos e Custos",
+          "text": "O prazo médio para obtenção é de 30 a 60 dias, podendo variar conforme a complexidade. Os custos incluem taxas, projeto técnico e adequações necessárias."
+        }
+      ],
+      "conclusion": "A obtenção do AVCB deve ser planejada desde o início do projeto para evitar atrasos no lançamento.",
+      "cta": {
+        "text": "Precisa de ajuda com o AVCB?",
+        "button": "Falar com Especialista",
+        "link": "/contato"
+      }
+    },
+    "seo": {
+      "metaTitle": "AVCB para Incorporadoras | Guia Completo 2024 - Sinal Verde",
+      "metaDescription": "Guia completo sobre AVCB para incorporadoras. Documentação, prazos e dicas para aprovação rápida.",
+      "keywords": "avcb, corpo de bombeiros, incorporadoras, licenciamento"
+    },
+    "en": {
+      "title": "Complete Guide: Fire Department Certificate for Developers",
+      "excerpt": "Updated step-by-step for obtaining the Fire Department Inspection Certificate. Avoid fines and embargoes with our specialized checklist.",
+      "content": {
+        "introduction": "The Fire Department Inspection Certificate (AVCB) is a fundamental document for developers. Without it, your development can be embargoed, generating million-dollar losses.",
+        "sections": [
+          {
+            "heading": "What is AVCB?",
+            "text": "The AVCB certifies that the building has fire safety conditions as required by legislation. It's mandatory for obtaining occupancy permits and regular operation."
+          },
+          {
+            "heading": "Required Documentation",
+            "text": "Documentation varies by type and size of development, but generally includes:",
+            "list": [
+              "Approved fire safety project",
+              "Technical responsibility document",
+              "Electrical installation report",
+              "Fire fighting equipment certificates",
+              "Brigade training proof"
+            ]
+          },
+          {
+            "heading": "Deadlines and Costs",
+            "text": "Average time for obtaining is 30 to 60 days, varying by complexity. Costs include fees, technical project, and necessary adjustments."
+          }
+        ],
+        "conclusion": "AVCB obtaining should be planned from project start to avoid launch delays.",
+        "cta": {
+          "text": "Need help with AVCB?",
+          "button": "Talk to Specialist",
+          "link": "/contact"
+        }
+      },
+      "seo": {
+        "metaTitle": "Fire Certificate for Developers | Complete Guide 2024 - Sinal Verde",
+        "metaDescription": "Complete guide about fire certificates for developers. Documentation, deadlines and tips for quick approval.",
+        "keywords": "fire certificate, fire department, developers, licensing"
+      }
+    },
+    "es": {
+      "title": "Guía Completa: AVCB para Incorporadoras",
+      "excerpt": "Paso a paso actualizado para obtención del Certificado de Inspección de Bomberos. Evite multas y embargos con nuestra lista especializada.",
+      "content": {
+        "introduction": "El Certificado de Inspección de Bomberos (AVCB) es documento fundamental para incorporadoras. Sin él, su emprendimiento puede ser embargado, generando pérdidas millonarias.",
+        "sections": [
+          {
+            "heading": "¿Qué es el AVCB?",
+            "text": "El AVCB certifica que la edificación posee las condiciones de seguridad contra incendio previstas por la legislación. Es obligatorio para obtención del certificado de habitabilidad."
+          },
+          {
+            "heading": "Documentación Necesaria",
+            "text": "La documentación varía según tipo y tamaño del emprendimiento, pero generalmente incluye:",
+            "list": [
+              "Proyecto de seguridad contra incendio aprobado",
+              "Documento de responsabilidad técnica",
+              "Informe de instalaciones eléctricas",
+              "Certificados de equipos contra incendio",
+              "Comprobante de entrenamiento de brigada"
+            ]
+          },
+          {
+            "heading": "Plazos y Costos",
+            "text": "El plazo promedio para obtención es de 30 a 60 días, pudiendo variar según complejidad. Los costos incluyen tasas, proyecto técnico y adecuaciones necesarias."
+          }
+        ],
+        "conclusion": "La obtención del AVCB debe ser planificada desde el inicio del proyecto para evitar retrasos en el lanzamiento.",
+        "cta": {
+          "text": "¿Necesita ayuda con el AVCB?",
+          "button": "Hablar con Especialista",
+          "link": "/contacto"
+        }
+      },
+      "seo": {
+        "metaTitle": "AVCB para Incorporadoras | Guía Completa 2024 - Sinal Verde",
+        "metaDescription": "Guía completa sobre AVCB para incorporadoras. Documentación, plazos y consejos para aprobación rápida.",
+        "keywords": "avcb, cuerpo de bomberos, incorporadoras, licenciamiento"
+      }
+    }
+  }
+}

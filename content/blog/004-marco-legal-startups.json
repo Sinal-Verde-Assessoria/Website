@@ -1,0 +1,114 @@
+{
+  "id": "marco-legal-startups",
+  "featured": false,
+  "category": "legislacao",
+  "date": "2024-01-08",
+  "readTime": 6,
+  "views": 1342,
+  "author": "Dra. Ana Costa",
+  "authorRole": "Consultora Jurídica",
+  "image": "marco-legal.jpg",
+  "tags": ["startups", "legislação", "advocacia", "inovação"],
+  "pt": {
+    "title": "Marco Legal das Startups: Oportunidades para Escritórios",
+    "excerpt": "Como escritórios de advocacia podem aproveitar as mudanças do Marco Legal das Startups para expandir sua carteira de clientes.",
+    "content": {
+      "introduction": "O Marco Legal das Startups trouxe mudanças significativas que criam novas oportunidades de atuação para escritórios de advocacia especializados.",
+      "sections": [
+        {
+          "heading": "Principais Mudanças",
+          "text": "A lei simplifica processos e cria novos instrumentos jurídicos específicos para startups.",
+          "list": [
+            "Contrato de vesting simplificado",
+            "Sociedade Anônima Simplificada (SAS)",
+            "Sandbox regulatório",
+            "Licitação por desafio"
+          ]
+        },
+        {
+          "heading": "Oportunidades para Escritórios",
+          "text": "Escritórios podem desenvolver expertise específica em: estruturação societária de startups, contratos de investimento, proteção de propriedade intelectual, e compliance para inovação."
+        }
+      ],
+      "conclusion": "O momento é ideal para escritórios se posicionarem como especialistas no ecossistema de inovação.",
+      "cta": {
+        "text": "Quer apoio paralegal para startups?",
+        "button": "Conhecer Serviços",
+        "link": "/servicos"
+      }
+    },
+    "seo": {
+      "metaTitle": "Marco Legal das Startups | Oportunidades para Advocacia - Sinal Verde",
+      "metaDescription": "Como o Marco Legal das Startups cria oportunidades para escritórios de advocacia. Guia completo.",
+      "keywords": "marco legal startups, advocacia startups, oportunidades advocacia"
+    },
+    "en": {
+      "title": "Startup Legal Framework: Opportunities for Law Firms",
+      "excerpt": "How law firms can leverage Startup Legal Framework changes to expand their client portfolio.",
+      "content": {
+        "introduction": "The Startup Legal Framework brought significant changes that create new opportunities for specialized law firms.",
+        "sections": [
+          {
+            "heading": "Main Changes",
+            "text": "The law simplifies processes and creates new legal instruments specific to startups.",
+            "list": [
+              "Simplified vesting contract",
+              "Simplified Corporation (SAS)",
+              "Regulatory sandbox",
+              "Challenge-based bidding"
+            ]
+          },
+          {
+            "heading": "Opportunities for Firms",
+            "text": "Firms can develop specific expertise in: startup corporate structuring, investment contracts, intellectual property protection, and innovation compliance."
+          }
+        ],
+        "conclusion": "The timing is ideal for firms to position themselves as innovation ecosystem specialists.",
+        "cta": {
+          "text": "Want paralegal support for startups?",
+          "button": "Explore Services",
+          "link": "/services"
+        }
+      },
+      "seo": {
+        "metaTitle": "Startup Legal Framework | Law Firm Opportunities - Sinal Verde",
+        "metaDescription": "How Startup Legal Framework creates opportunities for law firms. Complete guide.",
+        "keywords": "startup legal framework, startup law, law firm opportunities"
+      }
+    },
+    "es": {
+      "title": "Marco Legal de Startups: Oportunidades para Despachos",
+      "excerpt": "Cómo los despachos de abogados pueden aprovechar los cambios del Marco Legal de Startups para expandir su cartera.",
+      "content": {
+        "introduction": "El sector paralegal está pasando por una revolución tecnológica sin precedentes. 2024 marca el inicio de una nueva era en servicios jurídicos y burocráticos.",
+        "sections": [
+          {
+            "heading": "Principales Cambios",
+            "text": "La ley simplifica procesos y crea nuevos instrumentos jurídicos específicos para startups.",
+            "list": [
+              "Contrato de vesting simplificado",
+              "Sociedad Anónima Simplificada (SAS)",
+              "Sandbox regulatorio",
+              "Licitación por desafío"
+            ]
+          },
+          {
+            "heading": "Oportunidades para Despachos",
+            "text": "Los despachos pueden desarrollar expertise específica en: estructuración societaria de startups, contratos de inversión, protección de propiedad intelectual y compliance para innovación."
+          }
+        ],
+        "conclusion": "El momento es ideal para que los despachos se posicionen como especialistas en el ecosistema de innovación.",
+        "cta": {
+          "text": "¿Quiere apoyo paralegal para startups?",
+          "button": "Conocer Servicios",
+          "link": "/servicios"
+        }
+      },
+      "seo": {
+        "metaTitle": "Marco Legal de Startups | Oportunidades para Abogacía - Sinal Verde",
+        "metaDescription": "Cómo el Marco Legal de Startups crea oportunidades para despachos de abogados. Guía completa.",
+        "keywords": "marco legal startups, abogacía startups, oportunidades abogacía"
+      }
+    }
+  }
+}

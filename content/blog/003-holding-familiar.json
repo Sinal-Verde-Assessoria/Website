@@ -1,0 +1,147 @@
+{
+  "id": "holding-familiar",
+  "featured": false,
+  "category": "societario",
+  "date": "2024-01-10",
+  "readTime": 7,
+  "views": 1567,
+  "author": "Dr. Carlos Mendes",
+  "authorRole": "Advogado Societário",
+  "image": "holding-familiar.jpg",
+  "tags": ["holding", "planejamento", "sucessão", "patrimônio"],
+  "pt": {
+    "title": "Holding Familiar: Proteção Patrimonial em 2024",
+    "excerpt": "Como estruturar uma holding familiar de forma eficiente. Benefícios fiscais, sucessórios e os erros mais comuns a evitar.",
+    "content": {
+      "introduction": "A holding familiar continua sendo uma das melhores ferramentas de proteção patrimonial e planejamento sucessório no Brasil, especialmente com as mudanças tributárias de 2024.",
+      "sections": [
+        {
+          "heading": "Benefícios da Holding Familiar",
+          "text": "A estruturação adequada de uma holding familiar oferece múltiplas vantagens:",
+          "list": [
+            "Redução de até 17% na carga tributária sobre heranças",
+            "Proteção contra dilapidação patrimonial",
+            "Facilitação do processo sucessório",
+            "Blindagem patrimonial legal",
+            "Gestão centralizada de investimentos"
+          ]
+        },
+        {
+          "heading": "Estruturação Passo a Passo",
+          "text": "O processo de criação requer planejamento cuidadoso e acompanhamento especializado para garantir todos os benefícios legais."
+        },
+        {
+          "heading": "Erros Comuns a Evitar",
+          "text": "Muitas famílias cometem erros que podem invalidar os benefícios:",
+          "list": [
+            "Não formalizar acordos de acionistas",
+            "Misturar patrimônio pessoal e empresarial",
+            "Ignorar aspectos sucessórios no contrato social",
+            "Não considerar o regime de bens dos sócios"
+          ]
+        }
+      ],
+      "conclusion": "A holding familiar é investimento na perpetuidade e proteção do patrimônio familiar.",
+      "cta": {
+        "text": "Quer estruturar sua holding familiar?",
+        "button": "Agendar Consultoria",
+        "link": "/contato"
+      }
+    },
+    "seo": {
+      "metaTitle": "Holding Familiar 2024 | Guia de Proteção Patrimonial - Sinal Verde",
+      "metaDescription": "Como criar holding familiar em 2024. Benefícios fiscais, proteção patrimonial e planejamento sucessório.",
+      "keywords": "holding familiar, proteção patrimonial, planejamento sucessório, benefícios fiscais"
+    },
+    "en": {
+      "title": "Family Holding: Asset Protection in 2024",
+      "excerpt": "How to efficiently structure a family holding. Tax benefits, succession planning and common mistakes to avoid.",
+      "content": {
+        "introduction": "Family holding remains one of the best asset protection and succession planning tools in Brazil, especially with 2024 tax changes.",
+        "sections": [
+          {
+            "heading": "Family Holding Benefits",
+            "text": "Proper structuring of a family holding offers multiple advantages:",
+            "list": [
+              "Up to 17% reduction in inheritance tax burden",
+              "Protection against asset dissipation",
+              "Simplified succession process",
+              "Legal asset protection",
+              "Centralized investment management"
+            ]
+          },
+          {
+            "heading": "Step-by-Step Structuring",
+            "text": "The creation process requires careful planning and specialized support to ensure all legal benefits."
+          },
+          {
+            "heading": "Common Mistakes to Avoid",
+            "text": "Many families make mistakes that can invalidate benefits:",
+            "list": [
+              "Not formalizing shareholder agreements",
+              "Mixing personal and business assets",
+              "Ignoring succession aspects in bylaws",
+              "Not considering partners' marital property regime"
+            ]
+          }
+        ],
+        "conclusion": "Family holding is an investment in perpetuity and family asset protection.",
+        "cta": {
+          "text": "Want to structure your family holding?",
+          "button": "Schedule Consultation",
+          "link": "/contact"
+        }
+      },
+      "seo": {
+        "metaTitle": "Family Holding 2024 | Asset Protection Guide - Sinal Verde",
+        "metaDescription": "How to create family holding in 2024. Tax benefits, asset protection and succession planning.",
+        "keywords": "family holding, asset protection, succession planning, tax benefits"
+      }
+    },
+    "es": {
+      "title": "Holding Familiar: Protección Patrimonial en 2024",
+      "excerpt": "Cómo estructurar un holding familiar eficientemente. Beneficios fiscales, sucesorios y errores comunes a evitar.",
+      "content": {
+        "introduction": "El holding familiar sigue siendo una de las mejores herramientas de protección patrimonial y planificación sucesoria en Brasil, especialmente con los cambios tributarios de 2024.",
+        "sections": [
+          {
+            "heading": "Beneficios del Holding Familiar",
+            "text": "La estructuración adecuada de un holding familiar ofrece múltiples ventajas:",
+            "list": [
+              "Reducción de hasta 17% en carga tributaria sobre herencias",
+              "Protección contra dilapidación patrimonial",
+              "Facilitación del proceso sucesorio",
+              "Blindaje patrimonial legal",
+              "Gestión centralizada de inversiones"
+            ]
+          },
+          {
+            "heading": "Estructuración Paso a Paso",
+            "text": "El proceso de creación requiere planificación cuidadosa y acompañamiento especializado para garantizar todos los beneficios legales."
+          },
+          {
+            "heading": "Erros Comunes a Evitar",
+            "text": "Muchas familias cometen errores que pueden invalidar los beneficios:",
+            "list": [
+              "No formalizar acuerdos de accionistas",
+              "Mezclar patrimonio personal y empresarial",
+              "Ignorar aspectos sucesorios en el contrato social",
+              "No considerar el régimen de bienes de los socios"
+            ]
+          }
+        ],
+        "conclusion": "El holding familiar es inversión en la perpetuidad y protección del patrimonio familiar.",
+        "cta": {
+          "text": "¿Quiere estructurar su holding familiar?",
+          "button": "Agendar Consultoría",
+          "link": "/contacto"
+        }
+      },
+      "seo": {
+        "metaTitle": "Holding Familiar 2024 | Guía de Protección Patrimonial - Sinal Verde",
+        "metaDescription": "Cómo crear holding familiar en 2024. Beneficios fiscales, protección patrimonial y planificación sucesoria.",
+        "keywords": "holding familiar, protección patrimonial, planificación sucesoria, beneficios fiscales"
+      }
+    }
+  }
+}
