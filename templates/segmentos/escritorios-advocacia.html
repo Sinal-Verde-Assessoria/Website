@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="{{CURRENT_LANG}}">
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TB8TSVFD');</script>
+<!-- End Google Tag Manager -->
+ <!-- Adicione este bloco no <head> de TODOS os templates HTML -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "@id": "{{otherData.globalMeta.baseUrl}}/#organization",
+  "name": "{{otherData.company.name}}",
+  "alternateName": "Sinal Verde",
+  "url": "{{otherData.globalMeta.baseUrl}}",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{otherData.globalMeta.baseUrl}}/assets/images/logo.png",
+    "width": 200,
+    "height": 200
+  },
+  "image": "{{otherData.globalMeta.baseUrl}}/assets/images/logo.png",
+  "description": "{{ui.footer.description}}",
+  "telephone": "{{otherData.company.phoneCall}}",
+  "email": "{{otherData.company.email}}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Conselheiro Saraiva, 207 - Cj 53",
+    "addressLocality": "São Paulo",
+    "addressRegion": "SP",
+    "postalCode": "02037-020",
+    "addressCountry": "BR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-23.5144",
+    "longitude": "-46.6199"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "12:00"
+    }
+  ],
+  "sameAs": [
+    "{{otherData.socialMedia.linkedin}}",
+    "{{otherData.socialMedia.instagram}}",
+    "{{otherData.socialMedia.facebook}}"
+  ],
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "Dr. {{otherData.company.founders.0.name}}",
+      "jobTitle": "{{otherData.company.founders.0.role}}"
+    },
+    {
+      "@type": "Person",
+      "name": "Dr. {{otherData.company.founders.1.name}}",
+      "jobTitle": "{{otherData.company.founders.1.role}}"
+    }
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "Brasil"
+  },
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "127"
+  }
+}</script>
+<!-- Adicione estes blocos ADICIONAIS no <head> de grupos-economicos.html, escritorios-advocacia.html, incorporadoras.html, empresas.html -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{title}}",
+  "description": "{{subtitle}}",
+  "provider": {
+    "@id": "{{otherData.globalMeta.baseUrl}}/#organization"
+  },
+  "serviceType": "Assessoria Jurídica Paralegal Especializada",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Brasil"
+  },
+  "offers": {
+    "@type": "Offer",
+    "name": "{{ctaSection.title}}",
+    "description": "{{ctaSection.subtitle}}",
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "{{meta.year}}-01-01",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "price": "Sob consulta",
+      "priceCurrency": "BRL"
+    }
+  },
+  "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "{{title}}"
+  },
+  "additionalType": "https://schema.org/ProfessionalService",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "45",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}</script>
+
+<!-- StructuredData for Process Steps -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "{{processSection.title}}",
+  "description": "{{processSection.subtitle}}",
+  "step": [
+    {{#processSteps}}
+    {
+      "@type": "HowToStep",
+      "position": {{@index}},
+      "name": "{{title}}",
+      "text": "{{description}}",
+      "url": "{{otherData.globalMeta.baseUrl}}/{{CURRENT_LANG}}/contato"
+    }{{^isLast}},{{/isLast}}
+    {{/processSteps}}
+  ]
+}</script>
+
+<!-- BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{{ui.nav.home}}",
+      "item": "{{otherData.globalMeta.baseUrl}}/{{CURRENT_LANG}}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Segmentos",
+      "item": "{{otherData.globalMeta.baseUrl}}/{{CURRENT_LANG}}/segmentos"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{title}}",
+      "item": "{{otherData.globalMeta.baseUrl}}/{{CURRENT_LANG}}/segmentos/{{@filename}}"
+    }
+  ]
+}</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{metaTitle}} | Sinal Verde</title>
+    <meta name="description" content="{{metaDescription}}">
+    <meta name="keywords" content="{{metaKeywords}}">
+    
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.ico">
+    
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/segmentos.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TB8TSVFD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="/index.html" class="logo">
+                    <img src="/assets/images/logo.png" alt="Sinal Verde" width="40" height="40">
+                    <div>
+                        <span>SINAL VERDE</span>
+                        <small>ASSESSORIA</small>
+                    </div>
+                </a>
+                
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-menu">
+                    <li><a href="/servicos.html" data-i18n="nav.services">{{ui.nav.services}}</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle active"><span data-i18n="nav.segments">{{ui.nav.segments}}</span> <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="/segmentos/grupos-economicos.html">
+                                    <i class="fas fa-building"></i>
+                                    <div>
+                                        <strong data-i18n="segments.economic">{{ui.segments.economic}}</strong>
+                                        <small data-i18n="segments.economicDesc">{{ui.segments.economicDesc}}</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/segmentos/escritorios-advocacia.html" class="active">
+                                    <i class="fas fa-balance-scale"></i>
+                                    <div>
+                                        <strong data-i18n="segments.law">{{ui.segments.law}}</strong>
+                                        <small data-i18n="segments.lawDesc">{{ui.segments.lawDesc}}</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/segmentos/incorporadoras.html">
+                                    <i class="fas fa-city"></i>
+                                    <div>
+                                        <strong data-i18n="segments.real">{{ui.segments.real}}</strong>
+                                        <small data-i18n="segments.realDesc">{{ui.segments.realDesc}}</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/segmentos/empresas.html">
+                                    <i class="fas fa-briefcase"></i>
+                                    <div>
+                                        <strong data-i18n="segments.general">{{ui.segments.general}}</strong>
+                                        <small data-i18n="segments.generalDesc">{{ui.segments.generalDesc}}</small>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="/sobre.html" data-i18n="nav.about">{{ui.nav.about}}</a></li>
+                    <li><a href="/blog.html" data-i18n="nav.blog">{{ui.nav.blog}}</a></li>
+                    <li><a href="/contato.html" data-i18n="nav.contact">{{ui.nav.contact}}</a></li>
+                    <li class="language-selector">
+                        <div class="lang-dropdown">
+                            <button class="lang-current">
+                                <span class="flag-emoji">🇧🇷</span>
+                                <span>PT</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="lang-options">
+                                <a href="#" class="lang-option active" data-lang="pt">
+                                    <span class="flag-emoji">🇧🇷</span>
+                                    <span>Português</span>
+                                </a>
+                                <a href="#" class="lang-option" data-lang="en">
+                                    <span class="flag-emoji">🇺🇸</span>
+                                    <span>English</span>
+                                </a>
+                                <a href="#" class="lang-option" data-lang="es">
+                                    <span class="flag-emoji">🇪🇸</span>
+                                    <span>Español</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="segment-hero">
+        <div class="hero-background">
+            <div class="hero-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="segment-label">{{label}}</span>
+                <h1>{{title}}</h1>
+                <p>{{subtitle}}</p>
+                
+                <div class="hero-actions">
+                    <a href="/contato.html" class="btn btn-primary btn-large">
+                        <i class="fas fa-calendar-check"></i> <span>{{cta1}}</span>
+                    </a>
+                    <a href="#solucoes" class="btn btn-secondary btn-large">
+                        <i class="fas fa-list-check"></i> <span>{{cta2}}</span>
+                    </a>
+                </div>
+                
+                <div class="trust-indicators">
+                    <div class="indicator">
+                        <i class="fas fa-gavel"></i>
+                        <span>{{indicator1}}</span>
+                    </div>
+                    <div class="indicator">
+                        <i class="fas fa-clock"></i>
+                        <span>{{indicator2}}</span>
+                    </div>
+                    <div class="indicator">
+                        <i class="fas fa-certificate"></i>
+                        <span>{{indicator3}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pain-points">
+        <div class="container">
+            <div class="section-header">
+                <h2>{{painPointsTitle}}</h2>
+                <p>{{painPointsSubtitle}}</p>
+            </div>
+            
+            <div class="pains-grid">
+                {{#painPoints}}
+                <div class="pain-card">
+                    <div class="pain-icon problem">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                    <h3>{{problem}}</h3>
+                    <p>{{desc}}</p>
+                    <div class="solution">
+                        <i class="fas fa-check-circle"></i>
+                        <span>{{solution}}</span>
+                    </div>
+                </div>
+                {{/painPoints}}
+            </div>
+        </div>
+    </section>
+
+    <section class="solutions-section" id="solucoes">
+        <div class="container">
+            <div class="section-header">
+                <h2>{{solutionsTitle}}</h2>
+                <p>{{solutionsSubtitle}}</p>
+            </div>
+            
+            <div class="solutions-grid">
+                {{#solutions}}
+                <div class="solution-card {{#badge}}premium{{/badge}}">
+                    {{#badge}}<div class="premium-badge">{{badge}}</div>{{/badge}}
+                    <div class="solution-icon">
+                        <i class="{{icon}}"></i>
+                    </div>
+                    <h3>{{title}}</h3>
+                    <ul class="solution-features">
+                        {{#features}}
+                        <li><i class="fas fa-check"></i> {{.}}</li>
+                        {{/features}}
+                    </ul>
+                    <a href="/contato.html" class="btn {{#badge}}btn-primary btn-block{{/badge}}{{^badge}}btn-outline{{/badge}}">{{ctaText}}</a>
+                </div>
+                {{/solutions}}
+            </div>
+        </div>
+    </section>
+
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>{{processTitle}}</h2>
+                <p>{{processSubtitle}}</p>
+            </div>
+            
+            <div class="process-timeline">
+                {{#processSteps}}
+                <div class="process-item">
+                    <div class="process-number">{{number}}</div>
+                    <div class="process-content">
+                        <h3>{{title}}</h3>
+                        <p>{{desc}}</p>
+                        <span class="process-time">{{time}}</span>
+                    </div>
+                </div>
+                {{/processSteps}}
+            </div>
+        </div>
+    </section>
+
+    <section class="results-section">
+        <div class="container">
+            <div class="results-content">
+                <div class="results-text">
+                    <h2>{{resultsTitle}}</h2>
+                    <p>{{resultsSubtitle}}</p>
+                    
+                    <div class="results-grid">
+                        {{#results}}
+                        <div class="result-item">
+                            <span class="result-number">{{number}}</span>
+                            <span class="result-label">{{label}}</span>
+                        </div>
+                        {{/results}}
+                    </div>
+                </div>
+                
+                <div class="results-visual">
+                    <div class="visual-card">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <h4>{{resultsVisual1Title}}</h4>
+                        <p>{{resultsVisual1Desc}}</p>
+                    </div>
+                    <div class="visual-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>{{resultsVisual2Title}}</h4>
+                        <p>{{resultsVisual2Desc}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>{{ui.servicesPage.cta.title}}</h2>
+                <p>{{ui.servicesPage.cta.subtitle}}</p>
+                <div class="cta-buttons">
+                    <a href="/contato.html" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> <span>{{ui.servicesPage.cta.btn1}}</span>
+                    </a>
+                    <a href="https://wa.me/{{otherData.company.whatsappNumber}}" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> <span>{{ui.servicesPage.cta.btn2}}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-content four-cols">
+      <div class="footer-section">
+        <div class="footer-logo">
+          <img src="/assets/images/logo.png" alt="Sinal Verde" width="40" height="40">
+          <div>
+            <span>SINAL VERDE</span>
+            <small>ASSESSORIA</small>
+          </div>
+        </div>
+        <p>{{ui.footer.description}}</p>
+        <div class="social-links">
+          <a href="{{otherData.socialMedia.linkedin}}" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+          <a href="{{otherData.socialMedia.instagram}}" aria-label="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+          <a href="{{otherData.socialMedia.facebook}}" aria-label="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>{{ui.footer.quickLinks}}</h4>
+        <ul>
+          <li><a href="/index.html">{{ui.nav.home}}</a></li>
+          <li><a href="/servicos.html">{{ui.nav.services}}</a></li>
+          <li><a href="/sobre.html">{{ui.nav.about}}</a></li>
+          <li><a href="/blog.html">{{ui.nav.blog}}</a></li>
+          <li><a href="/contato.html">{{ui.nav.contact}}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>{{ui.footer.ourServices}}</h4>
+        <ul>
+          <li><a href="/servicos.html#licencas">{{ui.services.licenses.title}}</a></li>
+          <li><a href="/servicos.html#inscricoes">{{ui.services.municipal.title}}</a></li>
+          <li><a href="/servicos.html#atos">{{ui.services.corporate.title}}</a></li>
+          <li><a href="/servicos.html#junta">{{ui.services.commercial.title}}</a></li>
+          <li><a href="/servicos.html#cartoriais">{{ui.services.notary.title}}</a></li>
+          <li><a href="/servicos.html#consultoria">{{ui.services.consulting.title}}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>{{ui.footer.contact}}</h4>
+        <ul class="contact-info">
+          <li>
+            <a href="tel:{{otherData.company.phoneCall}}" aria-label="Telefone">
+              <i class="fas fa-phone"></i> &nbsp; {{otherData.company.phone}}
+            </a>
+          </li>
+
+          <li>
+            <a href="mailto:{{otherData.company.email}}" aria-label="E-mail">
+              <i class="fas fa-envelope"></i> &nbsp; {{otherData.company.email}}
+            </a>
+          </li>
+
+          <li>
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <address>
+              <a href="https://maps.google.com/?q={{otherData.company.addressEncoded}}" target="_blank" rel="noopener">
+                {{otherData.company.address}}
+              </a>
+            </address>
+          </li>
+
+          <li>
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span>{{ui.footer.workHoursLabel}} 8h às 18h</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        <p>{{otherData.company.name}} - CNPJ: {{otherData.company.cnpj}}</p>
+        <p>&copy; {{meta.year}} Sinal Verde Assessoria. <span>{{ui.footer.rights}}</span>.</p>
+      </div>
+      <div class="footer-links">
+        <a href="/politica-privacidade.html">{{ui.footer.privacy}}</a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <a href="https://wa.me/{{otherData.company.whatsappNumber}}" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/i18n.js"></script>
+    <script src="/assets/js/ui.js"></script>
+</body>
+</html>
