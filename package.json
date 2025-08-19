@@ -1,18 +1,13 @@
 {
   "name": "sinal-verde-website",
-  "version": "3.0.0",
-  "description": "Site institucional da Sinal Verde Assessoria",
-  "main": "build-script.js",
+  "version": "1.0.0",
+  "description": "Site da Sinal Verde Assessoria",
   "scripts": {
     "build": "node build-script.js",
-    "dev": "node build-script.js && npx http-server dist -p 8080",
-    "serve": "npx http-server dist -p 8080"
+    "dev": "node build-script.js"
   },
   "dependencies": {
     "cheerio": "1.0.0-rc.12",
     "mustache": "4.2.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }
