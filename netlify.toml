@@ -1,8 +1,8 @@
 # netlify.toml - Configuração de Build e Deploy para Netlify
 
 [build]
-  # Comando de build
-  command = "npm run build:production"
+  # Comando de build - AJUSTADO para corresponder ao package.json
+  command = "npm run build"
   
   # Diretório de publicação
   publish = "dist"
@@ -90,17 +90,23 @@
   to = "/pt/"
   status = 301
 
-# Plugin configurations
-[[plugins]]
-  package = "@netlify/plugin-sitemap"
-  
-  [plugins.inputs]
-    buildDir = "dist"
-    exclude = [
-      "./dist/build-info.json",
-      "./dist/_redirects",
-      "./dist/_headers"
-    ]
+# PÃ¡gina 404 customizada
+[[redirects]]
+  from = "/*"
+  to = "/pt/404.html"
+  status = 404
+
+# Plugin configurations - COMENTADO por enquanto
+# [[plugins]]
+#   package = "@netlify/plugin-sitemap"
+#   
+#   [plugins.inputs]
+#     buildDir = "dist"
+#     exclude = [
+#       "./dist/build-info.json",
+#       "./dist/_redirects",
+#       "./dist/_headers"
+#     ]
 
 # Deploy contexts
 [context.production]
@@ -114,7 +120,7 @@
 
 # Dev server (para testes locais com Netlify CLI)
 [dev]
-  command = "npm run serve"
+  command = "npm run dev"
   port = 8080
   targetPort = 8080
   publish = "dist"
