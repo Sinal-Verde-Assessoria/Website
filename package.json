@@ -1,0 +1,15 @@
+{
+  "name": "sinal-verde-website",
+  "version": "1.0.0",
+  "description": "Site da Sinal Verde Assessoria",
+  "scripts": {
+    "prebuild": "node -e \"console.log('Verificando templates...'); const fs=require('fs'); ['index.html','servicos.html','sobre.html','contato.html','blog.html','artigo.html'].forEach(f => { if(!fs.existsSync('./templates/'+f)) console.error('FALTA: templates/'+f); else console.log('OK: templates/'+f); })\"",
+    "build": "node build-script.js",
+    "postbuild": "node -e \"console.log('Verificando build...'); const fs=require('fs'); ['dist/index.html','dist/pt/index.html','dist/en/index.html','dist/es/index.html'].forEach(f => { if(!fs.existsSync(f)) console.error('FALTA: '+f); else console.log('OK: '+f); })\"",
+    "dev": "npm run build"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "mustache": "4.2.0"
+  }
+}
