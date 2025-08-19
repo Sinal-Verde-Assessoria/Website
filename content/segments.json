@@ -1,0 +1,1432 @@
+{
+  "economic-groups": {
+    "id": "grupos-economicos",
+    "pt": {
+      "metaTitle": "Grupos Econômicos | Sinal Verde - Soluções Paralegais Corporativas",
+      "metaDescription": "Soluções paralegais especializadas para grupos econômicos. Gestão centralizada, compliance corporativo e processos otimizados para grandes operações.",
+      "metaKeywords": "grupos econômicos, holding, compliance corporativo, gestão paralegal, grandes empresas",
+      "label": "Grupos Econômicos",
+      "title": "Gestão paralegal centralizada para operações complexas",
+      "subtitle": "Reduza em até 70% o tempo gasto com burocracias. Gerencie holdings, filiais e SPEs com segurança jurídica total e processos padronizados.",
+      "cta1": "Agendar Diagnóstico Gratuito",
+      "cta2": "Ver Soluções",
+      "indicator1": "50+ Grupos Atendidos",
+      "indicator2": "Atuação Nacional",
+      "indicator3": "100% Compliance",
+      "painPointsTitle": "Desafios que resolvemos para grupos econômicos",
+      "painPointsSubtitle": "Transformamos complexidade em simplicidade operacional",
+      "painPoints": [
+        {
+          "problem": "Gestão descentralizada",
+          "desc": "Múltiplas empresas, processos diferentes, informações dispersas e risco de não conformidade.",
+          "solution": "Centralizamos tudo em uma plataforma única"
+        },
+        {
+          "problem": "Custos elevados",
+          "desc": "Equipes internas grandes, consultores externos caros e processos redundantes.",
+          "solution": "Redução de até 60% nos custos operacionais"
+        },
+        {
+          "problem": "Riscos de compliance",
+          "desc": "Mudanças regulatórias constantes, prazos perdidos e multas milionárias.",
+          "solution": "Monitoramento 24/7 e alertas automáticos"
+        },
+        {
+          "problem": "Processos lentos",
+          "desc": "Abertura de filiais demorada, alterações societárias complexas e burocracia excessiva.",
+          "solution": "Processos 85% mais rápidos com automação"
+        }
+      ],
+      "solutionsTitle": "Soluções especializadas para sua estrutura corporativa",
+      "solutionsSubtitle": "Serviços desenhados para a complexidade de grandes operações",
+      "solutions": [
+        {
+          "badge": "Mais Procurado",
+          "icon": "fas fa-sitemap",
+          "title": "Gestão de Holdings e SPEs",
+          "features": [
+            "Estruturação societária otimizada",
+            "Reorganizações e cisões",
+            "Consolidação de empresas",
+            "Planejamento sucessório"
+          ],
+          "ctaText": "Solicitar Proposta"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-globe-americas",
+          "title": "Expansão Nacional",
+          "features": [
+            "Abertura de filiais em 15 dias",
+            "Licenças em todos os estados",
+            "CNPJ e inscrições estaduais",
+            "Adequação fiscal regional"
+          ],
+          "ctaText": "Saiba Mais"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-shield-alt",
+          "title": "Compliance Corporativo",
+          "features": [
+            "Auditoria de conformidade",
+            "LGPD e proteção de dados",
+            "Certificações e selos",
+            "Gestão de riscos legais"
+          ],
+          "ctaText": "Saiba Mais"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-chart-line",
+          "title": "M&A e Reestruturações",
+          "features": [
+            "Due diligence paralegal",
+            "Incorporações e fusões",
+            "Transformação societária",
+            "Suporte pós-transação"
+          ],
+          "ctaText": "Saiba Mais"
+        }
+      ],
+      "processTitle": "Como transformamos sua operação",
+      "processSubtitle": "Metodologia comprovada com resultados em 90 dias",
+      "processSteps": [
+        { "number": "01", "title": "Diagnóstico Completo", "desc": "Mapeamos toda estrutura societária, identificamos gaps e oportunidades de otimização.", "time": "Semana 1-2" },
+        { "number": "02", "title": "Plano de Ação", "desc": "Desenvolvemos roadmap personalizado com prioridades, prazos e quick wins.", "time": "Semana 3" },
+        { "number": "03", "title": "Implementação", "desc": "Executamos processos, regularizações e otimizações com equipe dedicada.", "time": "Semana 4-8" },
+        { "number": "04", "title": "Gestão Contínua", "desc": "Monitoramento proativo, alertas de compliance e suporte permanente.", "time": "Ongoing" }
+      ],
+      "resultsTitle": "Resultados que impactam o bottom line",
+      "resultsSubtitle": "Números reais de clientes que transformaram suas operações paralegais",
+      "results": [
+        { "number": "70%", "label": "Redução de tempo em processos" },
+        { "number": "60%", "label": "Economia em custos operacionais" },
+        { "number": "100%", "label": "Conformidade regulatória" },
+        { "number": "15 dias", "label": "Para abertura de filiais" }
+      ],
+      "resultsVisual1Title": "Dashboard em Tempo Real",
+      "resultsVisual1Desc": "Acompanhe todos os processos, prazos e status de suas empresas em uma única plataforma.",
+      "resultsVisual2Title": "Alertas Inteligentes",
+      "resultsVisual2Desc": "Notificações automáticas sobre vencimentos, mudanças regulatórias e ações necessárias.",
+      "ctaSectionTitle": "Pronto para escalar sem burocracia?",
+      "ctaSectionSubtitle": "Diagnóstico gratuito: identificamos até R$ 500k em oportunidades de economia",
+      "ctaSectionEmailPlaceholder": "Seu e-mail corporativo",
+      "ctaSectionButtonText": "Agendar Diagnóstico",
+      "ctaSectionBenefits": [
+        "Sem compromisso",
+        "Análise em 48h",
+        "Proposta personalizada"
+      ]
+    },
+    "en": {
+      "metaTitle": "Economic Groups | Sinal Verde - Corporate Paralegal Solutions",
+      "metaDescription": "Specialized paralegal solutions for economic groups. Centralized management, corporate compliance and optimized processes for large operations.",
+      "metaKeywords": "economic groups, holding, corporate compliance, paralegal management, large companies",
+      "label": "Economic Groups",
+      "title": "Centralized paralegal management for complex operations",
+      "subtitle": "Reduce bureaucracy time by up to 70%. Manage holdings, branches, and SPVs with total legal security and standardized processes.",
+      "cta1": "Schedule Free Diagnosis",
+      "cta2": "View Solutions",
+      "indicator1": "50+ Groups Served",
+      "indicator2": "National Coverage",
+      "indicator3": "100% Compliance",
+      "painPointsTitle": "Challenges we solve for economic groups",
+      "painPointsSubtitle": "We transform complexity into operational simplicity",
+      "painPoints": [
+        {
+          "problem": "Decentralized management",
+          "desc": "Multiple companies, different processes, scattered information and non-compliance risk.",
+          "solution": "We centralize everything in a single platform"
+        },
+        {
+          "problem": "High costs",
+          "desc": "Large internal teams, expensive external consultants and redundant processes.",
+          "solution": "Up to 60% reduction in operational costs"
+        },
+        {
+          "problem": "Compliance risks",
+          "desc": "Constant regulatory changes, missed deadlines and million-dollar fines.",
+          "solution": "24/7 monitoring and automatic alerts"
+        },
+        {
+          "problem": "Slow processes",
+          "desc": "Time-consuming branch openings, complex corporate changes and excessive bureaucracy.",
+          "solution": "85% faster processes with automation"
+        }
+      ],
+      "solutionsTitle": "Specialized solutions for your corporate structure",
+      "solutionsSubtitle": "Services designed for the complexity of large operations",
+      "solutions": [
+        {
+          "badge": "Most Sought After",
+          "icon": "fas fa-sitemap",
+          "title": "Holding and SPV Management",
+          "features": [
+            "Optimized corporate structuring",
+            "Reorganizations and spin-offs",
+            "Company consolidation",
+            "Succession planning"
+          ],
+          "ctaText": "Request Proposal"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-globe-americas",
+          "title": "National Expansion",
+          "features": [
+            "Branch opening in 15 days",
+            "Licenses in all states",
+            "CNPJ and state registrations",
+            "Regional tax compliance"
+          ],
+          "ctaText": "Learn More"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-shield-alt",
+          "title": "Corporate Compliance",
+          "features": [
+            "Compliance audits",
+            "GDPR and data protection",
+            "Certifications and seals",
+            "Legal risk management"
+          ],
+          "ctaText": "Learn More"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-chart-line",
+          "title": "M&A and Restructuring",
+          "features": [
+            "Paralegal due diligence",
+            "Mergers and acquisitions",
+            "Corporate transformation",
+            "Post-transaction support"
+          ],
+          "ctaText": "Learn More"
+        }
+      ],
+      "processTitle": "How we transform your operation",
+      "processSubtitle": "Proven methodology with results in 90 days",
+      "processSteps": [
+        { "number": "01", "title": "Complete Diagnosis", "desc": "We map the entire corporate structure, identify gaps and optimization opportunities.", "time": "Week 1-2" },
+        { "number": "02", "title": "Action Plan", "desc": "We develop a personalized roadmap with priorities, deadlines, and quick wins.", "time": "Week 3" },
+        { "number": "03", "title": "Implementation", "desc": "We execute processes, regularizations, and optimizations with a dedicated team.", "time": "Week 4-8" },
+        { "number": "04", "title": "Continuous Management", "desc": "Proactive monitoring, compliance alerts, and ongoing support.", "time": "Ongoing" }
+      ],
+      "resultsTitle": "Results that impact the bottom line",
+      "resultsSubtitle": "Real metrics from clients who have transformed their paralegal operations",
+      "results": [
+        { "number": "70%", "label": "Reduction in process time" },
+        { "number": "60%", "label": "Savings in operational costs" },
+        { "number": "100%", "label": "Regulatory compliance" },
+        { "number": "15 days", "label": "For branch opening" }
+      ],
+      "resultsVisual1Title": "Real-Time Dashboard",
+      "resultsVisual1Desc": "Track the status of licenses, deadlines, and documents for all your companies in a single platform.",
+      "resultsVisual2Title": "Smart Alerts",
+      "resultsVisual2Desc": "Automatic notifications about deadlines, regulatory changes, and necessary actions.",
+      "ctaSectionTitle": "Ready to scale without bureaucracy?",
+      "ctaSectionSubtitle": "Free diagnosis: we identify up to R$ 500k in savings opportunities",
+      "ctaSectionEmailPlaceholder": "Your corporate email",
+      "ctaSectionButtonText": "Schedule Diagnosis",
+      "ctaSectionBenefits": [
+        "No commitment",
+        "Analysis in 48h",
+        "Personalized proposal"
+      ]
+    },
+    "es": {
+      "metaTitle": "Grupos Económicos | Sinal Verde - Soluciones Paralegales Corporativas",
+      "metaDescription": "Soluciones paralegales especializadas para grupos económicos. Gestión centralizada, cumplimiento corporativo y procesos optimizados para grandes operaciones.",
+      "metaKeywords": "grupos económicos, holding, cumplimiento corporativo, gestión paralegal, grandes empresas",
+      "label": "Grupos Económicos",
+      "title": "Gestión paralegal centralizada para operaciones complejas",
+      "subtitle": "Reduzca hasta 70% el tiempo gastado con burocracias. Gestione holdings, filiales y SPEs con seguridad jurídica total y procesos estandarizados.",
+      "cta1": "Agendar Diagnóstico Gratuito",
+      "cta2": "Ver Soluciones",
+      "indicator1": "50+ Grupos Atendidos",
+      "indicator2": "Actuación Nacional",
+      "indicator3": "100% Cumplimiento",
+      "painPointsTitle": "Desafíos que resolvemos para grupos económicos",
+      "painPointsSubtitle": "Transformamos complejidad en simplicidad operacional",
+      "painPoints": [
+        {
+          "problem": "Gestión descentralizada",
+          "desc": "Múltiples empresas, procesos diferentes, información dispersa y riesgo de no conformidad.",
+          "solution": "Centralizamos todo en una plataforma única"
+        },
+        {
+          "problem": "Costos elevados",
+          "desc": "Equipos internos grandes, consultores externos caros y procesos redundantes.",
+          "solution": "Reducción de hasta 60% en los costos operativos"
+        },
+        {
+          "problem": "Riesgos de cumplimiento",
+          "desc": "Cambios regulatorios constantes, plazos perdidos y multas millonarias.",
+          "solution": "Monitoreo 24/7 y alertas automáticas"
+        },
+        {
+          "problem": "Procesos lentos",
+          "desc": "Apertura de filiales demorada, cambios societarios complejos y burocracia excesiva.",
+          "solution": "Procesos 85% más rápidos con automatización"
+        }
+      ],
+      "solutionsTitle": "Soluciones especializadas para su estructura corporativa",
+      "solutionsSubtitle": "Servicios diseñados para la complejidad de grandes operaciones",
+      "solutions": [
+        {
+          "badge": "Más Buscado",
+          "icon": "fas fa-sitemap",
+          "title": "Gestión de Holdings y SPEs",
+          "features": [
+            "Estructuración societaria optimizada",
+            "Reorganizaciones y escisiones",
+            "Consolidación de empresas",
+            "Planificación sucesoria"
+          ],
+          "ctaText": "Solicitar Propuesta"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-globe-americas",
+          "title": "Expansión Nacional",
+          "features": [
+            "Apertura de filiales en 15 días",
+            "Licencias en todos los estados",
+            "CNPJ y registros estatales",
+            "Adecuación fiscal regional"
+          ],
+          "ctaText": "Saber Más"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-shield-alt",
+          "title": "Cumplimiento Corporativo",
+          "features": [
+            "Auditoría de cumplimiento",
+            "LGPD y protección de datos",
+            "Certificaciones y sellos",
+            "Gestión de riesgos legales"
+          ],
+          "ctaText": "Saber Más"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-chart-line",
+          "title": "M&A y Reestructuraciones",
+          "features": [
+            "Due diligence paralegal",
+            "Fusiones y adquisiciones",
+            "Transformación societaria",
+            "Soporte post-transacción"
+          ],
+          "ctaText": "Saber Más"
+        }
+      ],
+      "processTitle": "Cómo transformamos su operación",
+      "processSubtitle": "Metodología comprobada con resultados en 90 días",
+      "processSteps": [
+        { "number": "01", "title": "Diagnóstico Completo", "desc": "Mapeamos toda la estructura societaria, identificamos brechas y oportunidades de optimización.", "time": "Semana 1-2" },
+        { "number": "02", "title": "Plan de Acción", "desc": "Desarrollamos un roadmap personalizado con prioridades, plazos y victorias rápidas.", "time": "Semana 3" },
+        { "number": "03", "title": "Implementación", "desc": "Ejecutamos procesos, regularizaciones y optimizaciones con un equipo dedicado.", "time": "Semana 4-8" },
+        { "number": "04", "title": "Gestión Continua", "desc": "Monitoreo proactivo, alertas de cumplimiento y soporte continuo.", "time": "Ongoing" }
+      ],
+      "resultsTitle": "Resultados que impactan la rentabilidad",
+      "resultsSubtitle": "Números reales de clientes que han optimizado sus operaciones paralegales",
+      "results": [
+        { "number": "70%", "label": "Reducción de tiempo en procesos" },
+        { "number": "60%", "label": "Ahorro en costos operativos" },
+        { "number": "100%", "label": "Cumplimiento regulatorio" },
+        { "number": "15 días", "label": "Para apertura de filiais" }
+      ],
+      "resultsVisual1Title": "Panel de Proyectos en Tiempo Real",
+      "resultsVisual1Desc": "Siga el estado de las licencias, plazos y documentos de todas sus empresas en una única plataforma.",
+      "resultsVisual2Title": "Alertas Inteligentes",
+      "resultsVisual2Desc": "Notificaciones automáticas sobre vencimientos, cambios regulatorios y acciones necesarias.",
+      "ctaSectionTitle": "¿Listo para escalar sin burocracia?",
+      "ctaSectionSubtitle": "Diagnóstico gratuito: identificamos hasta R$ 500k en oportunidades de ahorro",
+      "ctaSectionEmailPlaceholder": "Su correo electrónico corporativo",
+      "ctaSectionButtonText": "Agendar Diagnóstico",
+      "ctaSectionBenefits": [
+        "Sin compromiso",
+        "Análisis en 48h",
+        "Propuesta personalizada"
+      ]
+    },
+    "seo": {
+      "metaTitle": "Incorporadoras Imobiliarias | Sinal Verde - Regularización y Licenciamiento",
+      "metaDescription": "Soluciones paralegales especializadas para incorporadoras. Licencias, permisos, AVCB y regularización completa para sus emprendimientos.",
+      "metaKeywords": "paralegal incorporadoras, licencias inmobiliarias, AVCB construcción, regularización emprendimientos"
+    }
+  },
+  "law-firms": {
+    "id": "escritorios-advocacia",
+    "pt": {
+      "metaTitle": "Escritórios de Advocacia | Sinal Verde - Apoio Paralegal Especializado",
+      "metaDescription": "Apoio paralegal completo para escritórios de advocacia. Liberamos sua equipe para focar no core business jurídico enquanto cuidamos da burocracia.",
+      "metaKeywords": "paralegal para advogados, apoio escritório advocacia, serviços paralegais jurídicos",
+      "label": "Escritórios de Advocacia",
+      "title": "Libere sua equipe para o que realmente importa",
+      "subtitle": "Terceirize atividades paralegais e aumente em até 40% a produtividade do seu escritório. Focamos na burocracia enquanto vocês focam na estratégia jurídica.",
+      "cta1": "Agendar Demonstração",
+      "cta2": "Nossos Serviços",
+      "indicator1": "200+ Escritórios Atendidos",
+      "indicator2": "Resposta em 2h",
+      "indicator3": "OAB Compliance",
+      "painPointsTitle": "Desafios que resolvemos para escritórios",
+      "painPointsSubtitle": "Transforme gargalos operacionais em eficiência produtiva",
+      "painPoints": [
+        {
+          "problem": "Advogados em tarefas operacionais",
+          "desc": "Profissionais caros executando trabalho burocrático de baixo valor agregado.",
+          "solution": "Delegue o operacional e foque no estratégico"
+        },
+        {
+          "problem": "Prazos perdidos",
+          "desc": "Controle manual de prazos processuais e administrativos gerando risco e multas.",
+          "solution": "Sistema de gestão com alertas automáticos"
+        },
+        {
+          "problem": "Alto custo fixo",
+          "desc": "Equipe interna grande para dar conta de picos de demanda sazonais.",
+          "solution": "Modelo flexível sob demanda"
+        },
+        {
+          "problem": "Processos manuais",
+          "desc": "Protocolos físicos, cópias, autenticações consumindo tempo valioso.",
+          "solution": "Digitalização e automação de processos"
+        }
+      ],
+      "solutionsTitle": "Serviços especializados para escritórios de advocacia",
+      "solutionsSubtitle": "Apoio paralegal completo para aumentar sua capacidade produtiva",
+      "solutions": [
+        {
+          "badge": "Mais Utilizado",
+          "icon": "fas fa-file-contract",
+          "title": "Diligências e Protocolos",
+          "features": [
+            "Protocolo em todos os tribunais",
+            "Cópias e vistas de processos",
+            "Distribuição de petições",
+            "Acompanhamento de publicações"
+          ],
+          "ctaText": "Contratar Agora"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-search",
+          "title": "Pesquisa e Documentação",
+          "features": [
+            "Certidões de distribuidores",
+            "Pesquisa de bens e patrimônio",
+            "Busca de processos",
+            "Análise documental"
+          ],
+          "ctaText": "Saiba Mais"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-users",
+          "title": "Apoio Societário",
+          "features": [
+            "Constituição de empresas",
+            "Alterações contratuais",
+            "Due diligence societária",
+            "Registros e arquivamentos"
+          ],
+          "ctaText": "Saiba Mais"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-laptop-code",
+          "title": "Gestão Digital",
+          "features": [
+            "Digitalização de processos",
+            "Organização de arquivos",
+            "Controle de prazos",
+            "Dashboard de processos"
+          ],
+          "ctaText": "Saiba Mais"
+        }
+      ],
+      "processTitle": "Como funciona nossa parceria",
+      "processSubtitle": "Integração simples e rápida com seu escritório",
+      "processSteps": [
+        { "number": "01", "title": "Análise de Necessidades", "desc": "Entendemos seus processos, volume de demandas e identificamos oportunidades.", "time": "Dia 1" },
+        { "number": "02", "title": "Proposta Personalizada", "desc": "Desenvolvemos pacote de serviços sob medida com pricing flexível.", "time": "Dia 2-3" },
+        { "number": "03", "title": "Integração", "desc": "Conectamos sistemas, definimos fluxos e treinamos equipes.", "time": "Semana 1" },
+        { "number": "04", "title": "Operação Contínua", "desc": "Suporte dedicado, relatórios periódicos e melhoria contínua.", "time": "Ongoing" }
+      ],
+      "resultsTitle": "Resultados que impactam a rentabilidade",
+      "resultsSubtitle": "Métricas reais de escritórios que otimizaram suas operações",
+      "results": [
+        { "number": "40%", "label": "Aumento de produtividade" },
+        { "number": "35%", "label": "Redução de custos operacionais" },
+        { "number": "0", "label": "Prazos perdidos" },
+        { "number": "2h", "label": "Tempo médio de resposta" }
+      ],
+      "resultsVisual1Title": "Portal Exclusivo",
+      "resultsVisual1Desc": "Acompanhe todas as demandas, prazos e status em tempo real através do nosso portal.",
+      "resultsVisual2Title": "Segurança Total",
+      "resultsVisual2Desc": "Conformidade com LGPD, sigilo profissional e backup seguro de todos os documentos.",
+      "ctaSectionTitle": "Teste nossa eficiência sem compromisso",
+      "ctaSectionSubtitle": "Primeira demanda gratuita para escritórios qualificados",
+      "ctaSectionEmailPlaceholder": "E-mail do escritório",
+      "ctaSectionButtonText": "Solicitar Teste Gratuito",
+      "ctaSectionBenefits": [
+        "Sem compromisso",
+        "Resposta em 24h",
+        "Consultoria incluída"
+      ]
+    },
+    "en": {
+      "metaTitle": "Law Firms | Sinal Verde - Specialized Paralegal Support",
+      "metaDescription": "Complete paralegal support for law firms. We free up your team to focus on the legal core business while we handle the bureaucracy.",
+      "metaKeywords": "paralegal for lawyers, law firm support, legal paralegal services",
+      "label": "Law Firms",
+      "title": "Free up your team for what really matters",
+      "subtitle": "Outsource paralegal activities and increase your firm's productivity by up to 40%. We focus on bureaucracy while you focus on legal strategy.",
+      "cta1": "Schedule Demo",
+      "cta2": "Our Services",
+      "indicator1": "200+ Firms Served",
+      "indicator2": "2h Response",
+      "indicator3": "Bar Compliance",
+      "painPointsTitle": "Challenges we solve for law firms",
+      "painPointsSubtitle": "Transform operational bottlenecks into productive efficiency",
+      "painPoints": [
+        {
+          "problem": "Lawyers on operational tasks",
+          "desc": "Expensive professionals doing low-value-added bureaucratic work.",
+          "solution": "Delegate the operational and focus on the strategic"
+        },
+        {
+          "problem": "Missed deadlines",
+          "desc": "Manual control of procedural and administrative deadlines creating risk and fines.",
+          "solution": "Management system with automatic alerts"
+        },
+        {
+          "problem": "High fixed costs",
+          "desc": "Large in-house teams to handle seasonal demand peaks.",
+          "solution": "Flexible on-demand model"
+        },
+        {
+          "problem": "Manual processes",
+          "desc": "Physical filings, copies, and authentications consuming valuable time.",
+          "solution": "Digitalization and process automation"
+        }
+      ],
+      "solutionsTitle": "Specialized services for law firms",
+      "solutionsSubtitle": "Complete paralegal support to increase your productive capacity",
+      "solutions": [
+        {
+          "badge": "Most Used",
+          "icon": "fas fa-file-contract",
+          "title": "Due Diligence and Filings",
+          "features": [
+            "Filing in all courts",
+            "Copies and process viewing",
+            "Petition distribution",
+            "Publication tracking"
+          ],
+          "ctaText": "Hire Now"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-search",
+          "title": "Research and Documentation",
+          "features": [
+            "Certificates from distributors",
+            "Asset and property research",
+            "Process search",
+            "Document analysis"
+          ],
+          "ctaText": "Learn More"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-users",
+          "title": "Corporate Support",
+          "features": [
+            "Company formation",
+            "Contract amendments",
+            "Corporate due diligence",
+            "Registrations and filings"
+          ],
+          "ctaText": "Learn More"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-laptop-code",
+          "title": "Digital Management",
+          "features": [
+            "Process digitalization",
+            "File organization",
+            "Deadline control",
+            "Process dashboard"
+          ],
+          "ctaText": "Learn More"
+        }
+      ],
+      "processTitle": "How our partnership works",
+      "processSubtitle": "Simple and quick integration with your firm",
+      "processSteps": [
+        { "number": "01", "title": "Needs Analysis", "desc": "We understand your processes, demand volume and identify opportunities.", "time": "Day 1" },
+        { "number": "02", "title": "Personalized Proposal", "desc": "We develop a tailor-made service package with flexible pricing.", "time": "Day 2-3" },
+        { "number": "03", "title": "Integration", "desc": "We connect systems, define workflows and train teams.", "time": "Week 1" },
+        { "number": "04", "title": "Continuous Operation", "desc": "Dedicated support, periodic reports and continuous improvement.", "time": "Ongoing" }
+      ],
+      "resultsTitle": "Results that impact profitability",
+      "resultsSubtitle": "Real metrics from firms that have optimized their operations",
+      "results": [
+        { "number": "40%", "label": "Productivity increase" },
+        { "number": "35%", "label": "Reduction in operational costs" },
+        { "number": "0", "label": "Missed deadlines" },
+        { "number": "2h", "label": "Average response time" }
+      ],
+      "resultsVisual1Title": "Exclusive Portal",
+      "resultsVisual1Desc": "Track all demands, deadlines and status in real-time through our portal.",
+      "resultsVisual2Title": "Total Security",
+      "resultsVisual2Desc": "Compliance with LGPD, professional secrecy and secure backup of all documents.",
+      "ctaSectionTitle": "Test our efficiency without commitment",
+      "ctaSectionSubtitle": "First free request for qualified firms",
+      "ctaSectionEmailPlaceholder": "Firm's email",
+      "ctaSectionButtonText": "Request Free Trial",
+      "ctaSectionBenefits": [
+        "No commitment",
+        "24h response",
+        "Consulting included"
+      ]
+    },
+    "es": {
+      "metaTitle": "Despachos de Abogados | Sinal Verde - Apoyo Paralegal Especializado",
+      "metaDescription": "Apoyo paralegal completo para despachos de abogados. Liberamos a su equipo para que se enfoque en el core business jurídico mientras nosotros nos ocupamos de la burocracia.",
+      "metaKeywords": "paralegal para abogados, apoyo despacho de abogados, servicios paralegales jurídicos",
+      "label": "Despachos de Abogados",
+      "title": "Libere su equipo para lo que realmente importa",
+      "subtitle": "Tercerize actividades paralegales y aumente hasta 40% la productividad de su despacho. Nos enfocamos en la burocracia mientras ustedes se enfocan en la estrategia jurídica.",
+      "cta1": "Agendar Demostración",
+      "cta2": "Nuestros Servicios",
+      "indicator1": "200+ Despachos Atendidos",
+      "indicator2": "Respuesta en 2h",
+      "indicator3": "Compliance Colegio",
+      "painPointsTitle": "Desafíos que resolvemos para despachos",
+      "painPointsSubtitle": "Transforme cuellos de botella operacionales en eficiencia productiva",
+      "painPoints": [
+        {
+          "problem": "Abogados en tareas operacionales",
+          "desc": "Profesionales caros ejecutando trabajo burocrático de bajo valor agregado.",
+          "solution": "Delegue lo operacional y enfoque en lo estratégico"
+        },
+        {
+          "problem": "Plazos perdidos",
+          "desc": "Control manual de plazos procesales y administrativos generando riesgo y multas.",
+          "solution": "Sistema de gestión con alertas automáticas"
+        },
+        {
+          "problem": "Alto costo fijo",
+          "desc": "Equipo interno grande para lidiar con picos de demanda estacionales.",
+          "solution": "Modelo flexible bajo demanda"
+        },
+        {
+          "problem": "Procesos manuales",
+          "desc": "Protocolos físicos, copias, autenticaciones consumiendo tiempo valioso.",
+          "solution": "Digitalización y automatización de procesos"
+        }
+      ],
+      "solutionsTitle": "Servicios especializados para despachos de abogados",
+      "solutionsSubtitle": "Apoyo paralegal completo para aumentar su capacidad productiva",
+      "solutions": [
+        {
+          "badge": "Más Utilizado",
+          "icon": "fas fa-file-contract",
+          "title": "Diligencias y Protocolos",
+          "features": [
+            "Protocolo en todos los tribunales",
+            "Copias y vistas de procesos",
+            "Distribución de peticiones",
+            "Seguimiento de publicaciones"
+          ],
+          "ctaText": "Contratar Ahora"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-search",
+          "title": "Investigación y Documentación",
+          "features": [
+            "Certificados de distribuidores",
+            "Investigación de bienes y patrimonio",
+            "Búsqueda de procesos",
+            "Análisis documental"
+          ],
+          "ctaText": "Saber Más"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-users",
+          "title": "Apoyo Corporativo",
+          "features": [
+            "Constitución de empresas",
+            "Modificaciones de contrato",
+            "Due diligence societaria",
+            "Registros y presentaciones"
+          ],
+          "ctaText": "Saber Más"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-laptop-code",
+          "title": "Gestión Digital",
+          "features": [
+            "Digitalización de procesos",
+            "Organización de archivos",
+            "Control de plazos",
+            "Panel de procesos"
+          ],
+          "ctaText": "Saber Más"
+        }
+      ],
+      "processTitle": "Cómo funciona nuestra asociación",
+      "processSubtitle": "Integración simple y rápida con su despacho",
+      "processSteps": [
+        { "number": "01", "title": "Análisis de Necesidades", "desc": "Entendemos sus procesos, volumen de demandas e identificamos oportunidades.", "time": "Día 1" },
+        { "number": "02", "title": "Propuesta Personalizada", "desc": "Desarrollamos un paquete de servicios a medida con precios flexibles.", "time": "Día 2-3" },
+        { "number": "03", "title": "Integración", "desc": "Conectamos sistemas, definimos flujos y capacitamos a los equipos.", "time": "Semana 1" },
+        { "number": "04", "title": "Operación Continua", "desc": "Soporte dedicado, informes periódicos y mejora continua.", "time": "Ongoing" }
+      ],
+      "resultsTitle": "Resultados que impactan la rentabilidad",
+      "resultsSubtitle": "Métricas reales de despachos que han optimizado sus operaciones",
+      "results": [
+        { "number": "40%", "label": "Aumento de productividad" },
+        { "number": "35%", "label": "Reducción de costos operacionales" },
+        { "number": "0", "label": "Plazos perdidos" },
+        { "number": "2h", "label": "Tiempo promedio de respuesta" }
+      ],
+      "resultsVisual1Title": "Portal Exclusivo",
+      "resultsVisual1Desc": "Monitoree todas las demandas, plazos y estado en tiempo real a través de nuestro portal.",
+      "resultsVisual2Title": "Seguridad Total",
+      "resultsVisual2Desc": "Cumplimiento con LGPD, secreto profesional y copia de seguridad segura de todos los documentos.",
+      "ctaSectionTitle": "Pruebe nuestra eficiencia sin compromiso",
+      "ctaSectionSubtitle": "Primera demanda gratuita para despachos calificados",
+      "ctaSectionEmailPlaceholder": "Correo electrónico del despacho",
+      "ctaSectionButtonText": "Solicitar Prueba Gratuita",
+      "ctaSectionBenefits": [
+        "Sin compromiso",
+        "Respuesta en 24h",
+        "Consultoría incluida"
+      ]
+    }
+  },
+  "real-estate": {
+    "id": "incorporadoras",
+    "pt": {
+      "metaTitle": "Incorporadoras Imobiliárias | Sinal Verde - Regularização e Licenciamento",
+      "metaDescription": "Soluções paralegais especializadas para incorporadoras. Licenças, alvarás, AVCB e regularização completa para seus empreendimentos.",
+      "metaKeywords": "paralegal incorporadoras, licenças imobiliárias, AVCB construção, regularização empreendimentos",
+      "label": "Incorporadoras Imobiliárias",
+      "title": "Lance seus empreendimentos sem burocracia",
+      "subtitle": "Cuidamos de toda regularização e licenciamento para que você foque em vender. Do alvará de construção ao habite-se, garantimos 100% de conformidade.",
+      "cta1": "Regularizar Empreendimento",
+      "cta2": "Ver Soluções",
+      "indicator1": "300+ Empreendimentos",
+      "indicator2": "Licenças em 30 dias",
+      "indicator3": "Zero Embargos",
+      "painPointsTitle": "Desafios do mercado imobiliário que resolvemos",
+      "painPointsSubtitle": "Elimine riscos e acelere lançamentos com nossa expertise",
+      "painPoints": [
+        {
+          "problem": "Atrasos em licenças",
+          "desc": "Meses de espera por alvarás e aprovações atrasando lançamentos e vendas.",
+          "solution": "Licenças em até 30 dias úteis"
+        },
+        {
+          "problem": "Risco de embargo",
+          "desc": "Obras paralisadas por falta de documentação ou não conformidades legais.",
+          "solution": "Auditoria preventiva e regularização"
+        },
+        {
+          "problem": "Complexidade regulatória",
+          "desc": "Múltiplos órgãos, documentos e exigências diferentes para cada projeto.",
+          "solution": "Gestão unificada de toda documentação"
+        },
+        {
+          "problem": "Custos com retrabalho",
+          "desc": "Projetos rejeitados, documentos incorretos gerando custos extras.",
+          "solution": "Aprovação garantida na primeira vez"
+        }
+      ],
+      "solutionsTitle": "Soluções completas para cada fase do empreendimento",
+      "solutionsSubtitle": "Do terreno ao habite-se, cuidamos de toda burocracia",
+      "solutions": [
+        {
+          "badge": "Essencial",
+          "icon": "fas fa-hard-hat",
+          "title": "Licenças de Construção",
+          "features": [
+            "Alvará de construção",
+            "Aprovação de projetos",
+            "Licenças ambientais",
+            "Outorgas e autorizações"
+          ],
+          "ctaText": "Iniciar Processo"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-fire-extinguisher",
+          "title": "AVCB e Segurança",
+          "features": [
+            "Auto de Vistoria Bombeiros",
+            "Projeto de incêndio",
+            "Laudos de segurança",
+            "Renovações periódicas"
+          ],
+          "ctaText": "Saiba Mais"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-home",
+          "title": "Habite-se e Entrega",
+          "features": [
+            "Certificado de conclusão",
+            "Regularização final",
+            "Averbação de obra",
+            "Individualização de matrículas"
+          ],
+          "ctaText": "Saiba Mais"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-leaf",
+          "title": "Licenciamento Ambiental",
+          "features": [
+            "Licença prévia (LP)",
+            "Licença de instalação (LI)",
+            "Licença de operação (LO)",
+            "Estudos de impacto"
+          ],
+          "ctaText": "Saiba Mais"
+        }
+      ],
+      "processTitle": "Processo ágil e transparente",
+      "processSubtitle": "Acompanhe cada etapa em tempo real",
+      "processSteps": [
+        { "number": "01", "title": "Análise do Projeto", "desc": "Avaliamos documentação, identificamos pendências e criamos plano de ação.", "time": "24 horas" },
+        { "number": "02", "title": "Preparação Documental", "desc": "Organizamos e preparamos toda documentação necessária.", "time": "3-5 dias" },
+        { "number": "03", "title": "Protocolo e Acompanhamento", "desc": "Protocolamos nos órgãos e acompanhamos até aprovação.", "time": "15-30 dias" },
+        { "number": "04", "title": "Entrega e Suporte", "desc": "Documentos aprovados e suporte contínuo para renovações.", "time": "Contínuo" }
+      ],
+      "resultsTitle": "Números que comprovam nossa eficiência",
+      "resultsSubtitle": "Resultados consistentes para incorporadoras de todos os portes",
+      "results": [
+        { "number": "300+", "label": "Empreendimentos regularizados" },
+        { "number": "30 dias", "label": "Tempo médio para licenças" },
+        { "number": "100%", "label": "Taxa de aprovação" },
+        { "number": "Zero", "label": "Obras embargadas" }
+      ],
+      "resultsVisual1Title": "Dashboard de Projetos",
+      "resultsVisual1Desc": "Acompanhe status de licenças, prazos e documentos de todos os empreendimentos.",
+      "resultsVisual2Title": "Alertas Preventivos",
+      "resultsVisual2Desc": "Notificações sobre vencimentos, mudanças na legislação e ações necessárias.",
+      "ctaSectionTitle": "Acelere seus lançamentos imobiliários",
+      "ctaSectionSubtitle": "Análise gratuita do seu projeto em 24 horas",
+      "ctaSectionEmailPlaceholder": "E-mail corporativo",
+      "ctaSectionButtonText": "Solicitar Análise Gratuita",
+      "ctaSectionBenefits": [
+        "Sem compromisso",
+        "Diagnóstico completo",
+        "Orçamento transparente"
+      ]
+    },
+    "en": {
+      "metaTitle": "Real Estate Developers | Sinal Verde - Regularization and Licensing",
+      "metaDescription": "Specialized paralegal solutions for real estate developers. Licenses, permits, AVCB, and complete regularization for your projects.",
+      "metaKeywords": "paralegal for developers, real estate licenses, AVCB construction, project regularization",
+      "label": "Real Estate Developers",
+      "title": "Launch your projects without bureaucracy",
+      "subtitle": "We handle all regularization and licensing so you can focus on sales. From the construction permit to the 'habite-se' (occupancy permit), we guarantee 100% compliance.",
+      "cta1": "Regularize Project",
+      "cta2": "View Solutions",
+      "indicator1": "300+ Projects",
+      "indicator2": "Licenses in 30 days",
+      "indicator3": "Zero Embargos (Stop-Work Orders)",
+      "painPointsTitle": "Challenges of the real estate market we solve",
+      "painPointsSubtitle": "Eliminate risks and accelerate launches with our expertise",
+      "painPoints": [
+        {
+          "problem": "License delays",
+          "desc": "Months waiting for permits and approvals, delaying launches and sales.",
+          "solution": "Licenses in up to 30 business days"
+        },
+        {
+          "problem": "Risk of stop-work orders",
+          "desc": "Projects halted due to lack of documentation or legal non-compliance.",
+          "solution": "Preventive audit and regularization"
+        },
+        {
+          "problem": "Regulatory complexity",
+          "desc": "Multiple agencies, documents, and different requirements for each project.",
+          "solution": "Unified management of all documentation"
+        },
+        {
+          "problem": "Rework costs",
+          "desc": "Rejected projects, incorrect documents generating extra costs.",
+          "solution": "Guaranteed approval the first time"
+        }
+      ],
+      "solutionsTitle": "Complete solutions for each project phase",
+      "solutionsSubtitle": "From land acquisition to occupancy permits, we handle all the bureaucracy",
+      "solutions": [
+        {
+          "badge": "Essential",
+          "icon": "fas fa-hard-hat",
+          "title": "Construction Licenses",
+          "features": [
+            "Construction permit",
+            "Project approval",
+            "Environmental licenses",
+            "Grants and authorizations"
+          ],
+          "ctaText": "Start Process"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-fire-extinguisher",
+          "title": "AVCB and Safety",
+          "features": [
+            "Fire Department Inspection Report",
+            "Fire safety project",
+            "Safety reports",
+            "Periodic renewals"
+          ],
+          "ctaText": "Learn More"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-home",
+          "title": "Habite-se and Delivery",
+          "features": [
+            "Completion certificate",
+            "Final regularization",
+            "Work registration",
+            "Individualization of deeds"
+          ],
+          "ctaText": "Learn More"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-leaf",
+          "title": "Environmental Licensing",
+          "features": [
+            "Preliminary license (LP)",
+            "Installation license (LI)",
+            "Operation license (LO)",
+            "Impact studies"
+          ],
+          "ctaText": "Learn More"
+        }
+      ],
+      "processTitle": "Agile and transparent process",
+      "processSubtitle": "Track each step in real-time",
+      "processSteps": [
+        { "number": "01", "title": "Project Analysis", "desc": "We evaluate documentation, identify pending issues, and create an action plan.", "time": "24 hours" },
+        { "number": "02", "title": "Document Preparation", "desc": "We organize and prepare all necessary documentation.", "time": "3-5 days" },
+        { "number": "03", "title": "Filing and Tracking", "desc": "We file with the agencies and track until approval.", "time": "15-30 days" },
+        { "number": "04", "title": "Delivery and Support", "desc": "Approved documents and ongoing support for renewals.", "time": "Ongoing" }
+      ],
+      "resultsTitle": "Numbers that prove our efficiency",
+      "resultsSubtitle": "Consistent results for developers of all sizes",
+      "results": [
+        { "number": "300+", "label": "Projects regularized" },
+        { "number": "30 days", "label": "Average time for licenses" },
+        { "number": "100%", "label": "Approval rate" },
+        { "number": "Zero", "label": "Stop-work orders" }
+      ],
+      "resultsVisual1Title": "Project Dashboard",
+      "resultsVisual1Desc": "Track the status of licenses, deadlines, and documents for all your projects.",
+      "resultsVisual2Title": "Preventive Alerts",
+      "resultsVisual2Desc": "Notifications about deadlines, legislative changes, and necessary actions.",
+      "ctaSectionTitle": "Accelerate your real estate launches",
+      "ctaSectionSubtitle": "Free project analysis in 24 hours",
+      "ctaSectionEmailPlaceholder": "Corporate email",
+      "ctaSectionButtonText": "Request Free Analysis",
+      "ctaSectionBenefits": [
+        "No commitment",
+        "Complete diagnosis",
+        "Transparent quote"
+      ]
+    },
+    "es": {
+      "metaTitle": "Incorporadoras Inmobiliarias | Sinal Verde - Regularización y Licencias",
+      "metaDescription": "Soluciones paralegales especializadas para incorporadoras. Licencias, permisos, AVCB y regularización completa para sus emprendimientos.",
+      "metaKeywords": "paralegal para incorporadoras, licencias inmobiliarias, AVCB construcción, regularización de emprendimientos",
+      "label": "Incorporadoras Inmobiliarias",
+      "title": "Lance sus emprendimientos sin burocracia",
+      "subtitle": "Nos encargamos de toda la regularización y las licencias para que usted se enfoque en vender. Desde el permiso de construcción hasta la 'habite-se', garantizamos 100% de conformidad.",
+      "cta1": "Regularizar Emprendimiento",
+      "cta2": "Ver Soluciones",
+      "indicator1": "300+ Emprendimientos",
+      "indicator2": "Licencias en 30 días",
+      "indicator3": "Cero Embargos",
+      "painPointsTitle": "Desafíos del mercado inmobiliario que resolvemos",
+      "painPointsSubtitle": "Elimine riesgos y acelere lanzamientos con nuestra experiencia",
+      "painPoints": [
+        {
+          "problem": "Retrasos en licencias",
+          "desc": "Meses de espera por permisos y aprobaciones, retrasando lanzamientos y ventas.",
+          "solution": "Licencias en hasta 30 días hábiles"
+        },
+        {
+          "problem": "Riesgo de embargo",
+          "desc": "Obras paralizadas por falta de documentación o no conformidades legales.",
+          "solution": "Auditoría preventiva y regularización"
+        },
+        {
+          "problem": "Complejidad regulatoria",
+          "desc": "Múltiples organismos, documentos y exigencias diferentes para cada proyecto.",
+          "solution": "Gestión unificada de toda la documentación"
+        },
+        {
+          "problem": "Costos por retrabajo",
+          "desc": "Proyectos rechazados, documentos incorrectos generando costos extras.",
+          "solution": "Aprobación garantizada en la primera vez"
+        }
+      ],
+      "solutionsTitle": "Soluciones completas para cada fase del emprendimiento",
+      "solutionsSubtitle": "Del terreno al 'habite-se', nos encargamos de toda la burocracia",
+      "solutions": [
+        {
+          "badge": "Esencial",
+          "icon": "fas fa-hard-hat",
+          "title": "Licencias de Construcción",
+          "features": [
+            "Permiso de construcción",
+            "Aprobación de proyectos",
+            "Licencias ambientales",
+            "Otorgas y autorizaciones"
+          ],
+          "ctaText": "Iniciar Proceso"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-fire-extinguisher",
+          "title": "AVCB y Seguridad",
+          "features": [
+            "Acta de Vistoria de Bomberos",
+            "Proyecto de incendio",
+            "Informes de seguridad",
+            "Renovaciones periódicas"
+          ],
+          "ctaText": "Saber Más"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-home",
+          "title": "Habite-se y Entrega",
+          "features": [
+            "Certificado de conclusión",
+            "Regularización final",
+            "Anotación de la obra",
+            "Individualización de matrículas"
+          ],
+          "ctaText": "Saber Más"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-leaf",
+          "title": "Licencias Ambientales",
+          "features": [
+            "Licencia previa (LP)",
+            "Licencia de instalación (LI)",
+            "Licencia de operación (LO)",
+            "Estudios de impacto"
+          ],
+          "ctaText": "Saber Más"
+        }
+      ],
+      "processTitle": "Proceso ágil y transparente",
+      "processSubtitle": "Acompañe cada etapa en tiempo real",
+      "processSteps": [
+        { "number": "01", "title": "Análisis del Proyecto", "desc": "Evaluamos la documentación, identificamos pendientes y creamos un plan de acción.", "time": "24 horas" },
+        { "number": "02", "title": "Preparación Documental", "desc": "Organizamos y preparamos toda la documentación necesaria.", "time": "3-5 días" },
+        { "number": "03", "title": "Protocolo y Seguimiento", "desc": "Protocolamos en los organismos y acompañamos hasta la aprobación.", "time": "15-30 días" },
+        { "number": "04", "title": "Entrega y Soporte", "desc": "Documentos aprobados y soporte continuo para renovaciones.", "time": "Continuo" }
+      ],
+      "resultsTitle": "Números que comprueban nuestra eficiencia",
+      "resultsSubtitle": "Resultados consistentes para incorporadoras de todos los tamaños",
+      "results": [
+        { "number": "300+", "label": "Emprendimientos regularizados" },
+        { "number": "30 días", "label": "Tiempo promedio para licencias" },
+        { "number": "100%", "label": "Tasa de aprobación" },
+        { "number": "Cero", "label": "Obras embargadas" }
+      ],
+      "resultsVisual1Title": "Panel de Proyectos",
+      "resultsVisual1Desc": "Acompañe el estado de licencias, plazos y documentos de todos los emprendimientos.",
+      "resultsVisual2Title": "Alertas Preventivas",
+      "resultsVisual2Desc": "Notificaciones sobre vencimientos, cambios en la legislación y acciones necesarias.",
+      "ctaSectionTitle": "Acelere sus lanzamientos inmobiliarios",
+      "ctaSectionSubtitle": "Análisis gratuito de su proyecto en 24 horas",
+      "ctaSectionEmailPlaceholder": "Correo electrónico corporativo",
+      "ctaSectionButtonText": "Solicitar Análisis Gratuito",
+      "ctaSectionBenefits": [
+        "Sin compromiso",
+        "Diagnóstico completo",
+        "Presupuesto transparente"
+      ]
+    }
+  },
+  "general-companies": {
+    "id": "empresas",
+    "pt": {
+      "metaTitle": "Empresas | Sinal Verde - Soluções Paralegais para Todos os Portes",
+      "metaDescription": "Serviços paralegais acessíveis para empresas de todos os portes. Regularização, certidões, compliance e consultoria com preços justos.",
+      "metaKeywords": "paralegal empresas, serviços paralegais PME, regularização empresarial, certidões negativas",
+      "label": "Empresas de Todos os Portes",
+      "title": "Serviços paralegais acessíveis e eficientes",
+      "subtitle": "Do MEI à média empresa, oferecemos soluções sob medida para manter seu negócio regularizado e em crescimento. Preços justos, atendimento ágil.",
+      "cta1": "Falar com Consultor",
+      "cta2": "Ver Planos",
+      "indicator1": "1000+ Clientes",
+      "indicator2": "Preços Acessíveis",
+      "indicator3": "Suporte Dedicado",
+      "painPointsTitle": "Entendemos os desafios do seu negócio",
+      "painPointsSubtitle": "Soluções práticas para problemas reais de empresas brasileiras",
+      "painPoints": [
+        {
+          "problem": "Falta de tempo",
+          "desc": "Empresário sobrecarregado com burocracia ao invés de focar no negócio.",
+          "solution": "Cuidamos de tudo para você"
+        },
+        {
+          "problem": "Multas e penalidades",
+          "desc": "Desconhecimento de obrigações legais gerando multas desnecessárias.",
+          "solution": "Calendário de obrigações e alertas"
+        },
+        {
+          "problem": "Custos elevados",
+          "desc": "Contratar equipe interna ou consultorias caras para demandas pontuais.",
+          "solution": "Pague apenas pelo que usar"
+        },
+        {
+          "problem": "Processos complexos",
+          "desc": "Dificuldade para entender e cumprir exigências legais e regulatórias.",
+          "solution": "Simplificamos e explicamos tudo"
+        }
+      ],
+      "solutionsTitle": "Planos flexíveis para cada necessidade",
+      "solutionsSubtitle": "Escolha o modelo ideal para seu momento empresarial",
+      "solutions": [
+        {
+          "badge": null,
+          "icon": "fas fa-seedling",
+          "title": "Plano Essencial",
+          "subtitle": "Para MEI e Microempresas",
+          "features": [
+            "Abertura de empresa",
+            "Certidões negativas",
+            "Alterações básicas",
+            "Suporte por e-mail"
+          ],
+          "priceLabel": "A partir de",
+          "priceValue": "R$ 299",
+          "pricePeriod": "/serviço",
+          "ctaText": "Solicitar Orçamento"
+        },
+        {
+          "badge": "Mais Popular",
+          "icon": "fas fa-rocket",
+          "title": "Plano Crescimento",
+          "subtitle": "Para Pequenas Empresas",
+          "features": [
+            "Tudo do Essencial +",
+            "Licenças e alvarás",
+            "Compliance básico",
+            "Suporte prioritário",
+            "Dashboard online"
+          ],
+          "priceLabel": "A partir de",
+          "priceValue": "R$ 699",
+          "pricePeriod": "/mês",
+          "ctaText": "Começar Agora"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-crown",
+          "title": "Plano Corporate",
+          "subtitle": "Para Médias Empresas",
+          "features": [
+            "Tudo do Crescimento +",
+            "Gestão de filiais",
+            "Consultoria mensal",
+            "Atendimento VIP",
+            "SLA garantido"
+          ],
+          "priceLabel": "Sob consulta",
+          "priceValue": "Personalizado",
+          "ctaText": "Falar com Consultor"
+        }
+      ],
+      "servicesShowcaseTitle": "Serviços mais procurados",
+      "servicesShowcaseSubtitle": "Soluções rápidas para demandas do dia a dia",
+      "servicesShowcase": [
+        { "icon": "fas fa-file-alt", "title": "Abertura de Empresa", "desc": "CNPJ em até 7 dias úteis", "price": "R$ 499" },
+        { "icon": "fas fa-certificate", "title": "Certidões Negativas", "desc": "Federal, estadual e municipal", "price": "R$ 149" },
+        { "icon": "fas fa-edit", "title": "Alteração Contratual", "desc": "Mudanças societárias", "price": "R$ 799" },
+        { "icon": "fas fa-store", "title": "Alvará de Funcionamento", "desc": "Liberação municipal", "price": "R$ 599" },
+        { "icon": "fas fa-file-invoice", "title": "Inscrição Estadual", "desc": "Para comércio e indústria", "price": "R$ 399" },
+        { "icon": "fas fa-ban", "title": "Baixa de Empresa", "desc": "Encerramento completo", "price": "R$ 999" }
+      ],
+      "processTitle": "Como funciona",
+      "processSubtitle": "Processo simples e transparente do início ao fim",
+      "processSteps": [
+        { "number": "1", "title": "Solicite Online", "desc": "Preencha o formulário com sua necessidade ou escolha um serviço.", "time": "24 horas" },
+        { "number": "2", "title": "Orçamento Rápido", "desc": "Receba proposta detalhada com prazo e valor em até 2 horas.", "time": "2 horas" },
+        { "number": "3", "title": "Execução", "desc": "Nossa equipe cuida de tudo enquanto você acompanha online.", "time": "Ongoing" },
+        { "number": "4", "title": "Entrega", "desc": "Documentos prontos e orientações para manutenção.", "time": "Ongoing" }
+      ],
+      "ctaSectionTitle": "Simplifique sua vida empresarial hoje",
+      "ctaSectionSubtitle": "Primeira consulta gratuita para novos clientes",
+      "ctaSectionEmailPlaceholder": "Seu melhor e-mail",
+      "ctaSectionButtonText": "Quero Simplificar",
+      "ctaSectionBenefits": [
+        "Consulta gratuita",
+        "Orçamento em 2h",
+        "Sem pegadinhas"
+      ]
+    },
+    "en": {
+      "metaTitle": "General Companies | Sinal Verde - Paralegal Solutions for All Sizes",
+      "metaDescription": "Accessible paralegal services for companies of all sizes. Regularization, certificates, compliance, and consulting with fair prices.",
+      "metaKeywords": "paralegal for companies, SMB paralegal services, business regularization, negative certificates",
+      "label": "Companies of All Sizes",
+      "title": "Accessible and efficient paralegal services",
+      "subtitle": "From MEI (Individual Micro-entrepreneur) to medium-sized companies, we offer tailored solutions to keep your business regularized and growing. Fair prices, agile service.",
+      "cta1": "Talk to a Consultant",
+      "cta2": "View Plans",
+      "indicator1": "1000+ Clients",
+      "indicator2": "Affordable Prices",
+      "indicator3": "Dedicated Support",
+      "painPointsTitle": "We understand your business challenges",
+      "painPointsSubtitle": "Practical solutions for real problems of Brazilian companies",
+      "painPoints": [
+        {
+          "problem": "Lack of time",
+          "desc": "Entrepreneurs overwhelmed with bureaucracy instead of focusing on the business.",
+          "solution": "We take care of everything for you"
+        },
+        {
+          "problem": "Fines and penalties",
+          "desc": "Lack of knowledge of legal obligations leading to unnecessary fines.",
+          "solution": "Obligation calendar and alerts"
+        },
+        {
+          "problem": "High costs",
+          "desc": "Hiring an in-house team or expensive consultancies for specific demands.",
+          "solution": "Pay only for what you use"
+        },
+        {
+          "problem": "Complex processes",
+          "desc": "Difficulty understanding and complying with legal and regulatory requirements.",
+          "solution": "We simplify and explain everything"
+        }
+      ],
+      "solutionsTitle": "Flexible plans for every need",
+      "solutionsSubtitle": "Choose the ideal model for your business stage",
+      "solutions": [
+        {
+          "badge": null,
+          "icon": "fas fa-seedling",
+          "title": "Essential Plan",
+          "subtitle": "For MEI and Micro-enterprises",
+          "features": [
+            "Company opening",
+            "Negative certificates",
+            "Basic changes",
+            "Email support"
+          ],
+          "priceLabel": "Starting from",
+          "priceValue": "R$ 299",
+          "pricePeriod": "/service",
+          "ctaText": "Request Quote"
+        },
+        {
+          "badge": "Most Popular",
+          "icon": "fas fa-rocket",
+          "title": "Growth Plan",
+          "subtitle": "For Small Businesses",
+          "features": [
+            "Everything from the Essential Plan +",
+            "Licenses and permits",
+            "Basic compliance",
+            "Priority support",
+            "Online dashboard"
+          ],
+          "priceLabel": "Starting from",
+          "priceValue": "R$ 699",
+          "pricePeriod": "/month",
+          "ctaText": "Start Now"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-crown",
+          "title": "Corporate Plan",
+          "subtitle": "For Medium-sized Businesses",
+          "features": [
+            "Everything from the Growth Plan +",
+            "Branch management",
+            "Monthly consulting",
+            "VIP service",
+            "Guaranteed SLA"
+          ],
+          "priceLabel": "Upon consultation",
+          "priceValue": "Personalized",
+          "ctaText": "Talk to a Consultant"
+        }
+      ],
+      "servicesShowcaseTitle": "Most sought-after services",
+      "servicesShowcaseSubtitle": "Quick solutions for day-to-day demands",
+      "servicesShowcase": [
+        { "icon": "fas fa-file-alt", "title": "Company Opening", "desc": "CNPJ in up to 7 business days", "price": "R$ 499" },
+        { "icon": "fas fa-certificate", "title": "Negative Certificates", "desc": "Federal, state, and municipal", "price": "R$ 149" },
+        { "icon": "fas fa-edit", "title": "Contract Amendment", "desc": "Corporate changes", "price": "R$ 799" },
+        { "icon": "fas fa-store", "title": "Operating Permit", "desc": "Municipal release", "price": "R$ 599" },
+        { "icon": "fas fa-file-invoice", "title": "State Registration", "desc": "For commerce and industry", "price": "R$ 399" },
+        { "icon": "fas fa-ban", "title": "Company Dissolution", "desc": "Complete closure", "price": "R$ 999" }
+      ],
+      "processTitle": "How it works",
+      "processSubtitle": "Simple and transparent process from start to finish",
+      "processSteps": [
+        { "number": "1", "title": "Request Online", "desc": "Fill out the form with your needs or choose a service.", "time": "24 hours" },
+        { "number": "2", "title": "Quick Quote", "desc": "Receive a detailed proposal with timeframe and value in up to 2 hours.", "time": "2 hours" },
+        { "number": "3", "title": "Execution", "desc": "Our team handles everything while you track online.", "time": "Ongoing" },
+        { "number": "4", "title": "Delivery", "desc": "Ready documents and maintenance guidelines.", "time": "Ongoing" }
+      ],
+      "ctaSectionTitle": "Simplify your business life today",
+      "ctaSectionSubtitle": "First free consultation for new clients",
+      "ctaSectionEmailPlaceholder": "Your best email",
+      "ctaSectionButtonText": "I want to simplify",
+      "ctaSectionBenefits": [
+        "Free consultation",
+        "Quote in 2h",
+        "No hidden fees"
+      ]
+    },
+    "es": {
+      "metaTitle": "Empresas en General | Sinal Verde - Soluciones Paralegales para Todos los Tamaños",
+      "metaDescription": "Servicios paralegales accesibles para empresas de todos los tamaños. Regularización, certificados, compliance y consultoría con precios justos.",
+      "metaKeywords": "paralegal para empresas, servicios paralegales Pyme, regularización empresarial, certificados negativos",
+      "label": "Empresas de Todos los Tamaños",
+      "title": "Servicios paralegales accesibles y eficientes",
+      "subtitle": "Del MEI a la mediana empresa, ofrecemos soluciones a medida para mantener su negocio regularizado y en crecimiento. Precios justos, atención ágil.",
+      "cta1": "Hablar con Consultor",
+      "cta2": "Ver Planes",
+      "indicator1": "1000+ Clientes",
+      "indicator2": "Precios Accesibles",
+      "indicator3": "Soporte Dedicado",
+      "painPointsTitle": "Entendemos los desafíos de su negocio",
+      "painPointsSubtitle": "Soluciones prácticas para problemas reales de empresas brasileñas",
+      "painPoints": [
+        {
+          "problem": "Falta de tiempo",
+          "desc": "Empresario sobrecargado con burocracia en lugar de enfocarse en el negocio.",
+          "solution": "Nosotros nos encargamos de todo por usted"
+        },
+        {
+          "problem": "Multas y penalidades",
+          "desc": "Desconocimiento de obligaciones legales generando multas innecesarias.",
+          "solution": "Calendario de obligaciones y alertas"
+        },
+        {
+          "problem": "Costos elevados",
+          "desc": "Contratar equipo interno o consultorías caras para demandas puntuales.",
+          "solution": "Pague solo por lo que use"
+        },
+        {
+          "problem": "Procesos complejos",
+          "desc": "Dificultad para entender y cumplir exigencias legales y regulatorias.",
+          "solution": "Simplificamos y explicamos todo"
+        }
+      ],
+      "solutionsTitle": "Planes flexibles para cada necesidad",
+      "solutionsSubtitle": "Elija el modelo ideal para su momento empresarial",
+      "solutions": [
+        {
+          "badge": null,
+          "icon": "fas fa-seedling",
+          "title": "Plan Esencial",
+          "subtitle": "Para MEI y Microempresas",
+          "features": [
+            "Apertura de empresa",
+            "Certificados negativos",
+            "Cambios básicos",
+            "Soporte por email"
+          ],
+          "priceLabel": "A partir de",
+          "priceValue": "R$ 299",
+          "pricePeriod": "/servicio",
+          "ctaText": "Solicitar Presupuesto"
+        },
+        {
+          "badge": "Más Popular",
+          "icon": "fas fa-rocket",
+          "title": "Plan Crecimiento",
+          "subtitle": "Para Pequeñas Empresas",
+          "features": [
+            "Todo lo del Esencial +",
+            "Licencias y permisos",
+            "Compliance básico",
+            "Soporte prioritario",
+            "Panel online"
+          ],
+          "priceLabel": "A partir de",
+          "priceValue": "R$ 699",
+          "pricePeriod": "/mes",
+          "ctaText": "Comenzar Ahora"
+        },
+        {
+          "badge": null,
+          "icon": "fas fa-crown",
+          "title": "Plan Corporate",
+          "subtitle": "Para Medianas Empresas",
+          "features": [
+            "Todo lo del Crecimiento +",
+            "Gestión de filiales",
+            "Consultoría mensual",
+            "Atención VIP",
+            "SLA garantizado"
+          ],
+          "priceLabel": "Bajo consulta",
+          "priceValue": "Personalizado",
+          "ctaText": "Hablar con Consultor"
+        }
+      ],
+      "servicesShowcaseTitle": "Servicios más buscados",
+      "servicesShowcaseSubtitle": "Soluciones rápidas para demandas del día a día",
+      "servicesShowcase": [
+        { "icon": "fas fa-file-alt", "title": "Apertura de Empresa", "desc": "CNPJ en hasta 7 días hábiles", "price": "R$ 499" },
+        { "icon": "fas fa-certificate", "title": "Certificados Negativos", "desc": "Federal, estatal y municipal", "price": "R$ 149" },
+        { "icon": "fas fa-edit", "title": "Modificación Contractual", "desc": "Cambios societarios", "price": "R$ 799" },
+        { "icon": "fas fa-store", "title": "Permiso de Funcionamiento", "desc": "Liberación municipal", "price": "R$ 599" },
+        { "icon": "fas fa-file-invoice", "title": "Registro Estatal", "desc": "Para comercio e industria", "price": "R$ 399" },
+        { "icon": "fas fa-ban", "title": "Baja de Empresa", "desc": "Cierre completo", "price": "R$ 999" }
+      ],
+      "processTitle": "Cómo funciona",
+      "processSubtitle": "Proceso simple y transparente de principio a fin",
+      "processSteps": [
+        { "number": "1", "title": "Solicite Online", "desc": "Complete el formulario con su necesidad o elija un servicio.", "time": "24 horas" },
+        { "number": "2", "title": "Presupuesto Rápido", "desc": "Reciba una propuesta detallada con plazo y valor en hasta 2 horas.", "time": "2 horas" },
+        { "number": "3", "title": "Ejecución", "desc": "Nuestro equipo se encarga de todo mientras usted lo sigue online.", "time": "Continuo" },
+        { "number": "4", "title": "Entrega", "desc": "Documentos listos y orientaciones para mantenimiento.", "time": "Continuo" }
+      ],
+      "ctaSectionTitle": "Simplifique su vida empresarial hoy",
+      "ctaSectionSubtitle": "Primera consulta gratuita para nuevos clientes",
+      "ctaSectionEmailPlaceholder": "Su mejor email",
+      "ctaSectionButtonText": "Quiero Simplificar",
+      "ctaSectionBenefits": [
+        "Consulta gratuita",
+        "Presupuesto en 2h",
+        "Sin sorpresas"
+      ]
+    }
+  }
+}

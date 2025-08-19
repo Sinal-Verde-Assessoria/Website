@@ -1,0 +1,35 @@
+{
+  "company": {
+    "name": "Sinal Verde Apoio Administrativo LTDA",
+    "cnpj": "56.393.414/0001-82",
+    "phone": "(11) 93662-1755",
+    "phoneCall": "+5511936621755",
+    "whatsappNumber": "5511936621755",
+    "email": "contato@sinalverdeassessoria.com.br",
+    "address": "Av. Paulista, 1234 - Conjunto 567",
+    "city": "São Paulo, SP - CEP 01310-100",
+    "addressEncoded": "https://maps.google.com/?q=Av.%20Paulista%2C%201234%20-%20Conjunto%20567"
+  },
+  "socialMedia": {
+    "linkedin": "https://www.linkedin.com/company/sinal-verde",
+    "instagram": "https://www.instagram.com/sinalverdeassessoria",
+    "facebook": "https://www.facebook.com/sinalverdeassessoria"
+  },
+  "globalMeta": {
+    "baseUrl": "https://sinalverdeassessoria.com.br"
+  },
+  "servicesList": [
+    { "id": "licencas", "icon": "fas fa-file-certificate" },
+    { "id": "inscricoes", "icon": "fas fa-building" },
+    { "id": "atos", "icon": "fas fa-gavel" },
+    { "id": "junta", "icon": "fas fa-store" },
+    { "id": "cartoriais", "icon": "fas fa-stamp" },
+    { "id": "consultoria", "icon": "fas fa-chart-line" }
+  ],
+  "segmentsList": [
+    { "id": "grupos-economicos", "icon": "fas fa-building", "link": "segmentos/grupos-economicos.html" },
+    { "id": "escritorios-advocacia", "icon": "fas fa-balance-scale", "link": "segmentos/escritorios-advocacia.html" },
+    { "id": "incorporadoras", "icon": "fas fa-city", "link": "segmentos/incorporadoras.html" },
+    { "id": "empresas", "icon": "fas fa-briefcase", "link": "segmentos/empresas.html" }
+  ]
+}
