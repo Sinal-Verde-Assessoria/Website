@@ -3,7 +3,6 @@
   publish = "dist"
   environment = { NODE_VERSION = "20" }
 
-# Adicione esta seção ao seu netlify.toml
 [[redirects]]
   from = "/"
   to = "/pt/"
@@ -29,3 +28,4 @@
   force = false
 
 # Outras regras de redirecionamento (se houver)
+
