@@ -1,6 +1,106 @@
-[build]
-  command = "npm install --force && node build-script.js"
-  publish = "dist"
+# netlify.toml - Configuração de Build e Deploy para Netlify
 
-[build.environment]
-  NODE_VERSION = "20"
+[build]
+  # Comando de build que primeiro instala as dependências e depois executa o script.
+  # Use `npm install --force` para garantir que as dependências sejam instaladas,
+  # mesmo que haja conflitos de pares, o que pode ocorrer em alguns ambientes.
+  [cite_start]command = "npm install --force && node build-script.js" [cite: 1]
+  
+  # Diretório de publicação onde o build-script.js coloca os arquivos estáticos.
+  [cite_start]publish = "dist" [cite: 1]
+  
+  # Versão do Node.js a ser usada no ambiente de build do Netlify.
+  # A versão 20 é uma boa escolha, pois é uma versão LTS.
+  [cite_start]environment = { NODE_VERSION = "20" } [cite: 1]
+
+# Redirecionamentos baseados em idioma.
+# O Netlify detecta o idioma preferido do navegador do usuário e o redireciona.
+# Esta é a abordagem mais performática e recomendada para SEO.
+[[redirects]]
+  from = "/"
+  to = "/pt/"
+  status = 302
+  [cite_start]conditions = {Language = ["pt", "pt-BR"]} [cite: 1]
+
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 302
+  [cite_start]conditions = {Language = ["en", "en-US", "en-GB"]} [cite: 1]
+
+[[redirects]]
+  from = "/"
+  to = "/es/"
+  status = 302
+  [cite_start]conditions = {Language = ["es", "es-ES", "es-MX", "es-AR"]} [cite: 1]
+
+# Redirect padrão (fallback) para português se o idioma do usuário não for detectado
+# por nenhuma das regras acima.
+[[redirects]]
+  from = "/"
+  to = "/pt/"
+  status = 302
+  [cite_start]force = false [cite: 1]
+
+# Redirecionamentos para URLs antigas, caso você as tenha.
+# É uma boa prática para evitar erros 404 e manter a consistência da URL.
+# Substitua as URLs de exemplo pelas suas.
+[[redirects]]
+  from = "/index.html"
+  to = "/pt/"
+  [cite_start]status = 301 [cite: 1]
+
+[[redirects]]
+  from = "/home"
+  to = "/pt/"
+  [cite_start]status = 301 [cite: 1]
+
+[[redirects]]
+  from = "/inicio"
+  to = "/pt/"
+  [cite_start]status = 301 [cite: 1]
+
+# Configurações de cabeçalhos de segurança e cache.
+# Isso garante um bom desempenho e protege os usuários contra vulnerabilidades comuns.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Impede que a página seja exibida em um iframe.
+    [cite_start]X-Frame-Options = "DENY" [cite: 1]
+    # Impede que o navegador adivinhe o tipo de conteúdo.
+    [cite_start]X-Content-Type-Options = "nosniff" [cite: 1]
+    # Ativa a proteção contra ataques de cross-site scripting.
+    [cite_start]X-XSS-Protection = "1; mode=block" [cite: 1]
+    # Controla o campo 'referrer' nas requisições.
+    [cite_start]Referrer-Policy = "strict-origin-when-cross-origin" [cite: 1]
+    # Controla o acesso a recursos do navegador (geolocalização, câmera, etc.).
+    [cite_start]Permissions-Policy = "geolocation=(), microphone=(), camera=()" [cite: 1]
+
+# Regras de cache para arquivos de assets (CSS, JS, imagens).
+# Cache de longa duração, pois seus arquivos têm nomes versionados.
+[[headers]]
+  [cite_start]for = "/assets/*" [cite: 1]
+  [headers.values]
+    [cite_start]Cache-Control = "public, max-age=31536000, immutable" [cite: 1]
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    [cite_start]Cache-Control = "public, max-age=31536000, immutable" [cite: 1]
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    [cite_start]Cache-Control = "public, max-age=31536000, immutable" [cite: 1]
+
+[[headers]]
+  [cite_start]for = "/assets/images/*" [cite: 1]
+  [headers.values]
+    [cite_start]Cache-Control = "public, max-age=604800" [cite: 1]
+
+# Regra de cache para arquivos HTML.
+# Cache mais curto para que as atualizações sejam vistas mais rapidamente.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    [cite_start]Cache-Control = "public, max-age=3600, must-revalidate" [cite: 1]
