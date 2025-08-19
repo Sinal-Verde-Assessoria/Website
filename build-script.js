@@ -1266,9 +1266,6 @@ class BuildSystem {
       console.log('📦 Copiando assets...');
       await Utils.copyDir(CONFIG.paths.assets, path.join(CONFIG.paths.dist, 'assets'));
       
-      // Create root index.html (smart redirect)
-      await this.createRootIndex();
-      
       // Generate sitemap and robots.txt
       await this.sitemapGenerator.generate();
       
@@ -1305,69 +1302,6 @@ class BuildSystem {
       console.error(error.stack);
       process.exit(1);
     }
-  }
-  
-  async createRootIndex() {
-    const indexHTML = `<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sinal Verde - Redirecionando...</title>
-    <script>
-    (function() {
-        // Para desenvolvimento local, redireciona direto para /pt/
-        var isLocal = window.location.hostname === 'localhost' || 
-                     window.location.hostname === '127.0.0.1';
-        
-        if (isLocal) {
-            // Em desenvolvimento, vai direto para /pt/
-            window.location.href = '/pt/index.html';
-            return;
-        }
-        
-        // Em produção, detecta idioma preferido
-        var savedLang = localStorage.getItem('preferredLanguage');
-        var browserLang = navigator.language || navigator.userLanguage;
-        var lang = 'pt'; // Default
-        
-        if (savedLang) {
-            lang = savedLang;
-        } else if (browserLang) {
-            // Detectar idioma do navegador
-            if (browserLang.startsWith('en')) {
-                lang = 'en';
-            } else if (browserLang.startsWith('es')) {
-                lang = 'es';
-            } else if (browserLang.startsWith('pt')) {
-                lang = 'pt';
-            }
-        }
-        
-        // Redirecionar para o idioma apropriado
-        window.location.href = '/' + lang + '/';
-    })();
-    </script>
-    <noscript>
-        <meta http-equiv="refresh" content="0; url=/pt/">
-    </noscript>
-</head>
-<body>
-    <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
-        <h1>Redirecionando...</h1>
-        <p>Se não for redirecionado automaticamente, escolha seu idioma:</p>
-        <hr style="margin: 30px auto; width: 200px;">
-        <p style="font-size: 20px;">
-            <a href="/pt/" style="margin: 0 10px;">🇧🇷 Português</a> | 
-            <a href="/en/" style="margin: 0 10px;">🇺🇸 English</a> | 
-            <a href="/es/" style="margin: 0 10px;">🇪🇸 Español</a>
-        </p>
-    </div>
-</body>
-</html>`;
-    
-    await fs.writeFile(path.join(CONFIG.paths.dist, 'index.html'), indexHTML);
-    console.log('✅ index.html de redirecionamento inteligente criado');
   }
   
   async generateBuildInfo() {
