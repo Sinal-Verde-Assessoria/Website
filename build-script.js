@@ -1,6 +1,20 @@
 #!/usr/bin/env node
 
 /**
+ * POLYFILL PARA COMPATIBILIDADE COM NODE.JS
+ * Adiciona suporte para File API se não existir
+ */
+if (typeof global !== 'undefined' && !global.File) {
+    global.File = class File {
+        constructor(bits, name, options) {
+            this.bits = bits;
+            this.name = name;
+            this.options = options;
+        }
+    };
+}
+
+/**
  * SINAL VERDE SSG BUILD ENGINE V3.0 - PRODUCTION READY
  * =====================================================
  * Static Site Generator com todas as correções implementadas
@@ -16,7 +30,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const crypto = require('crypto');
 const Mustache = require('mustache');
-const cheerio = require('cheerio'); // npm install cheerio
+const cheerio = require('cheerio');
 
 // Disable Mustache HTML escaping
 Mustache.escape = (text) => text;
@@ -316,6 +330,54 @@ class TemplatePreprocessor {
     
     return processed;
   }
+}
+
+// Adicione esta função no seu build-script.js, após copiar os assets:
+
+async function copyRootIndex() {
+    const rootIndexPath = path.join(__dirname, 'index.html');
+    const distIndexPath = path.join(CONFIG.paths.dist, 'index.html');
+    
+    try {
+        // Verifica se o index.html existe na raiz
+        const exists = await fs.access(rootIndexPath).then(() => true).catch(() => false);
+        
+        if (exists) {
+            await fs.copyFile(rootIndexPath, distIndexPath);
+            console.log('✅ Root index.html (language redirector) copied');
+        } else {
+            console.log('⚠️ No root index.html found - creating fallback');
+            // Cria um redirecionador básico
+            const fallbackHTML = `<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=/pt/">
+    <title>Redirecting...</title>
+    <script>window.location.href = '/pt/';</script>
+</head>
+<body>
+    <a href="/pt/">Click here if not redirected</a>
+</body>
+</html>`;
+            await fs.writeFile(distIndexPath, fallbackHTML);
+        }
+    } catch (error) {
+        console.error('Error handling root index:', error.message);
+    }
+}
+
+// E no main() function, adicione esta linha após copyAssets():
+async function main() {
+    console.log('🚀 Starting build process...\n');
+    
+    await cleanDist();
+    await copyAssets();
+    await copyRootIndex();  // ← ADICIONE ESTA LINHA
+    await buildPages();
+    
+    console.log('\n✨ Build completed successfully!');
+    console.log(`📁 Files generated in: ${distDir}`);
 }
 
 // ===============================
