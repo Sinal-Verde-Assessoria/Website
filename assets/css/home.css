@@ -434,12 +434,14 @@
     }
 }
 
+
 @media (max-width: 500px) {
     .benefits-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
 }
+
 
 /* Metrics Section */
 .metrics-grid {
@@ -849,4 +851,3 @@
         text-align: center;
     }
 }
-
