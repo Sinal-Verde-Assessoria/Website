@@ -798,6 +798,7 @@ a {
 @media (max-width: 768px) {
     .mobile-menu-toggle {
         display: flex;
+        z-index: 999999999999999;
     }
     
     .nav-menu {
@@ -813,6 +814,7 @@ a {
         padding: 5rem 2rem 2rem;
         box-shadow: var(--shadow-xl);
         transition: var(--transition);
+        z-index: 99999999;
     }
     
     .nav-menu.active {
