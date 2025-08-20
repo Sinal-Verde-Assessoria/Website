@@ -19,12 +19,12 @@
     "lawDesc": "Apoio paralegal especializado",
     "real": "Incorporadoras Imobiliárias",
     "realDesc": "Regularização e licenciamento",
-    "general": "Empresas em Geral",
+    "general": "Empresas",
     "generalDesc": "Serviços para todos os portes"
   },
   "hero": {
     "title": "Desburocratize seu negócio com tecnologia e agilidade",
-    "subtitle": "Especialistas em assessoria paralegal para grupos econômicos, escritórios de advocacia e incorporadoras. Transforme desafios regulatórios em vantagem competitiva.",
+    "subtitle": "Especialistas em assessoria paralegal para grupos econômicos, escritórios de advocacia, incorporadoras e empresas em geral. Transforme desafios regulatórios em vantagem competitiva.",
     "cta1": "Solicitar Proposta",
     "cta2": "Conhecer Serviços"
   },
@@ -100,7 +100,7 @@
     "whatsapp": "Falar no WhatsApp"
   },
   "footer": {
-    "description": "Especialistas em assessoria paralegal e serviços burocráticos. Mais de 15 anos desburocratizando negócios brasileiros com excelência e agilidade.",
+    "description": "Especialistas em assessoria paralegal e serviços burocráticos. Mais de 5 anos desburocratizando negócios brasileiros com excelência e agilidade.",
     "quickLinks": "Links Rápidos",
     "ourServices": "Nossos Serviços",
     "contact": "Contato",
@@ -495,7 +495,7 @@
         "economic": "Grupo Econômico",
         "law": "Escritório de Advocacia",
         "real": "Incorporadora Imobiliária",
-        "general": "Empresa em Geral",
+        "general": "Empresa",
         "other": "Outro"
       },
       "service": "Serviço de Interesse",
@@ -524,7 +524,7 @@
     "sidebar": {
       "why": {
         "title": "Por que escolher a Sinal Verde?",
-        "item1": "Mais de 15 anos de experiência",
+        "item1": "Mais de 5 anos de experiência",
         "item2": "500+ empresas atendidas",
       "item3": "98% de satisfação dos clientes",
         "item4": "Resposta em até 24 horas",
@@ -582,5 +582,4 @@
     "lastUpdate": "Última atualização: Janeiro de 2025",
     "metaDescription": "Política de Privacidade da Sinal Verde"
   }
-
 }
