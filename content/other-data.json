@@ -2,9 +2,9 @@
   "company": {
     "name": "Sinal Verde Apoio Administrativo LTDA",
     "cnpj": "56.393.414/0001-82",
-    "phone": "(11) 93662-1755",
-    "phoneCall": "+5511936621755",
-    "whatsappNumber": "5511936621755",
+    "phone": "(11) 96332-1755",
+    "phoneCall": "+5511963321755",
+    "whatsappNumber": "5511963321755",
     "email": "contato@sinalverdeassessoria.com.br",
     "address": "Av. Paulista, 1234 - Conjunto 567",
     "city": "São Paulo, SP - CEP 01310-100",
@@ -32,4 +32,5 @@
     { "id": "incorporadoras", "icon": "fas fa-city", "link": "segmentos/incorporadoras.html" },
     { "id": "empresas", "icon": "fas fa-briefcase", "link": "segmentos/empresas.html" }
   ]
+
 }
