@@ -19,12 +19,12 @@
     "lawDesc": "Specialized paralegal support",
     "real": "Real Estate Developers",
     "realDesc": "Regularization and licensing",
-    "general": "General Companies",
+    "general": "Companies",
     "generalDesc": "Services for all sizes"
   },
   "hero": {
-    "title": "Streamline your business with technology and agility",
-    "subtitle": "Paralegal advisory specialists for economic groups, law firms, and developers. Transform regulatory challenges into competitive advantage.",
+    "title": "Streamline your business in Brazil with tech and agility",
+    "subtitle": "Brazilian paralegal advisory specialists for economic groups, law firms, real estate, and companies. Transform regulatory challenges into competitive advantage with our expertise.",
     "cta1": "Request Proposal",
     "cta2": "Explore Services"
   },
@@ -100,7 +100,7 @@
     "whatsapp": "Chat on WhatsApp"
   },
   "footer": {
-    "description": "Specialists in paralegal advisory and bureaucratic services. Over 15 years streamlining Brazilian businesses with excellence and agility.",
+    "description": "Specialists in paralegal advisory and bureaucratic services. Over 5 years streamlining Brazilian businesses with excellence and agility.",
     "quickLinks": "Quick Links",
     "ourServices": "Our Services",
     "contact": "Contact",
@@ -495,7 +495,7 @@
         "economic": "Economic Group",
         "law": "Law Firm",
         "real": "Real Estate Developer",
-        "general": "General Company",
+        "general": "Company",
         "other": "Other"
       },
       "service": "Service of Interest",
@@ -524,7 +524,7 @@
     "sidebar": {
       "why": {
         "title": "Why choose Sinal Verde?",
-        "item1": "Over 15 years of experience",
+        "item1": "Over 5 years of experience",
         "item2": "500+ companies served",
         "item3": "98% customer satisfaction",
         "item4": "Response within 24 hours",
