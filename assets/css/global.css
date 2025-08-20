@@ -252,6 +252,52 @@ a {
     transition: var(--transition);
 }
 
+/* Header States - ADICIONAR ISSO! */
+.main-header.scrolled {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: var(--white);
+    box-shadow: var(--shadow-md);
+    z-index: 1000;
+}
+
+.main-header.hide {
+    transform: translateY(-100%);
+}
+
+/* Fix para compensar o header fixed */
+body.has-scrolled-header {
+    padding-top: 80px; /* altura do header */
+}
+
+/* Mobile menu fix - garantir que fica escondido */
+@media (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 400px;
+        height: 100vh;
+        background: var(--white);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5rem 2rem 2rem;
+        box-shadow: var(--shadow-xl);
+        transition: var(--transition);
+        z-index: 9999; /* reduzi o z-index absurdo */
+        overflow-y: auto;
+        display: none; /* esconde por padrão */
+    }
+    
+    /* Só mostra quando REALMENTE ativo */
+    .nav-menu.active {
+        right: 0;
+        display: flex; /* mostra apenas quando ativo */
+    }
+}
+
 /* =========================
    FOOTER
    ========================= */
@@ -796,12 +842,36 @@ a {
 }
 
 @media (max-width: 768px) {
+    /* ========================= */
+    /* MOBILE MENU TOGGLE BUTTON */
+    /* ========================= */
     .mobile-menu-toggle {
         display: flex;
-        z-index: 999999999999999;
+        z-index: 1001; /* z-index mais sensato */
     }
     
+    .mobile-menu-toggle span {
+        transition: all 0.3s ease;
+        transform-origin: center;
+    }
+    
+    .mobile-menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    
+    .mobile-menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .mobile-menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+    
+    /* ========================= */
+    /* NAVIGATION MENU CONTAINER */
+    /* ========================= */
     .nav-menu {
+        display: flex;
         position: fixed;
         top: 0;
         right: -100%;
@@ -813,19 +883,22 @@ a {
         align-items: flex-start;
         padding: 5rem 2rem 2rem;
         box-shadow: var(--shadow-xl);
-        transition: var(--transition);
-        z-index: 99999999;
+        transform: translateX(100%); /* Animação suave */
+        z-index: 1000;
+        overflow-y: auto;
     }
     
     .nav-menu.active {
-        right: 0;
+        transform: translateX(0);
     }
     
     .nav-menu a::after {
         display: none;
     }
     
-    /* Mobile Dropdown Styles */
+    /* ========================= */
+    /* DROPDOWN CONTAINER        */
+    /* ========================= */
     .dropdown {
         width: 100%;
     }
@@ -833,55 +906,222 @@ a {
     .dropdown-toggle {
         width: 100%;
         justify-content: space-between;
+        cursor: pointer;
     }
     
-    .dropdown-menu {
-        position: static;
-        width: 100%;
-        opacity: 1;
-        visibility: visible;
-        transform: none;
-        box-shadow: none;
-        background: var(--secondary);
-        display: none;
-        margin-top: 0.5rem;
-    }
-    
-    .dropdown.active .dropdown-menu {
-        display: block;
+    /* Animação da seta do dropdown */
+    .dropdown-toggle i {
+        transition: transform 0.3s ease;
     }
     
     .dropdown.active .dropdown-toggle i {
         transform: rotate(180deg);
     }
     
+    /* ========================= */
+    /* DROPDOWN MENU ITEMS       */
+    /* ========================= */
+    .dropdown-menu {
+        position: static;
+        width: 100%;
+        max-height: 0; /* Começa fechado */
+        overflow: hidden;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        background: transparent;
+        margin-top: 0;
+        padding: 0;
+        border-radius: 0;
+        transition: max-height 0.4s ease-in-out, padding 0.3s ease; /* Animação smooth */
+    }
+    
+    .dropdown.active .dropdown-menu {
+        max-height: 500px; /* Altura suficiente para todos os items */
+        padding: 0.5rem 0;
+    }
+    
+    /* ========================= */
+    /* DROPDOWN LINK STYLES      */
+    /* ========================= */
     .dropdown-menu li a {
-        padding: 0.75rem 1rem;
+        padding: 0.75rem 0;
         font-size: 0.875rem;
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        background: transparent;
+        margin-bottom: 0.5rem;
+        border-radius: 0;
+        opacity: 0;
+        transform: translateX(-20px);
+        animation: slideIn 0.3s ease forwards;
+    }
+    
+    /* Animação stagger para cada item */
+    .dropdown.active .dropdown-menu li:nth-child(1) a { animation-delay: 0.1s; }
+    .dropdown.active .dropdown-menu li:nth-child(2) a { animation-delay: 0.15s; }
+    .dropdown.active .dropdown-menu li:nth-child(3) a { animation-delay: 0.2s; }
+    .dropdown.active .dropdown-menu li:nth-child(4) a { animation-delay: 0.25s; }
+    
+    /* ========================= */
+    /* DROPDOWN CONTENT STYLES   */
+    /* ========================= */
+    .dropdown-menu li a i {
+        flex-shrink: 0;
+        width: 30px;
+        font-size: 1.25rem;
+        color: var(--primary);
+    }
+    
+    .dropdown-menu li a div {
+        flex: 1;
+        min-width: 0;
+    }
+    
+    .dropdown-menu li a strong {
+        display: block;
+        font-size: 0.9375rem;
+        margin-bottom: 0.125rem;
+        color: var(--text-primary); /* Mudei pra text-primary pra ficar visível */
     }
     
     .dropdown-menu li a small {
-        font-size: 0.75rem;
+        display: block;
+        font-size: 0.8125rem;
+        line-height: 1.4;
+        color: var(--text-secondary);
+        white-space: normal;
     }
-    
-    .footer-content {
-        grid-template-columns: 1fr;
-        text-align: center;
+}
+
+/* ========================= */
+/* KEYFRAME ANIMATIONS       */
+/* ========================= */
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
     }
-    
-    .footer-bottom {
-        flex-direction: column;
-        gap: 1rem;
-        text-align: center;
-    }
-    
-    .social-links {
-        justify-content: center;
-    }
+}
     
     .whatsapp-float {
         width: 50px;
         height: 50px;
         font-size: 1.5rem;
+    }
+
+/* Centralizar seção de Contato no footer em mobile */
+@media (max-width: 768px) {
+    /* Todas as seções do footer centralizadas */
+    .footer-section {
+        text-align: center;
+    }
+    
+    .footer-section h4 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    
+    /* Links e listas centralizadas */
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-section ul li {
+        text-align: center;
+        margin-bottom: 0.75rem;
+    }
+    
+    /* Específico para a seção de Contato */
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .contact-info li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        width: 100%;
+    }
+    
+    .contact-info li i {
+        color: var(--primary);
+        width: 20px;
+        text-align: center;
+        flex-shrink: 0;
+    }
+    
+    .contact-info li a,
+    .contact-info li span,
+    .contact-info li address {
+        text-align: left;
+        font-style: normal;
+    }
+}
+
+/* Footer logo centralizado em mobile */
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    /* Centralizar primeira seção do footer */
+    .footer-section:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    /* Logo do footer centralizado */
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        justify-content: center;
+        margin: 0 auto 1rem auto;
+    }
+    
+    .footer-logo img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .footer-logo div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .footer-logo span {
+        font-weight: 700;
+        font-size: 1.25rem;
+        color: var(--white);
+    }
+    
+    .footer-logo small {
+        font-size: 0.75rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    
+    /* Centralizar descrição e links sociais */
+    .footer-section:first-child p {
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto 1rem auto;
+    }
+    
+    .footer-section:first-child .social-links {
+        justify-content: center;
     }
 }
